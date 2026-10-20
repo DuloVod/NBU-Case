@@ -1,0 +1,189 @@
+!transition_equations
+% GAPS and TRENDS DECOMP
+l_gdp = l_gdp_gap + l_gdp_tnd;
+
+l_rer = l_rer_gap + l_rer_tnd;
+
+rir_pol = rir_pol_gap + rir_tnd;
+
+prem_uip = prem_uip_gap + prem_uip_tnd;
+
+% TRENDS
+dl_gdp_tnd = 0.9*dl_gdp_tnd{-1} + (1 - 0.9)*dl_gdp_tnd_ss + res_dl_gdp_tnd;
+
+dl_rer_tnd = 0.9*dl_rer_tnd{-1} + (1 - 0.9)*dl_rer_tnd_ss + res_dl_rer_tnd;
+
+rir_tnd = 0.9*rir_tnd{-1} + (1 - 0.9)*(prem_uip_tnd + dl_rer_tnd{+1} + rir_ea_tnd);
+
+prem_uip_tnd = prem_uip_tnd_ss;
+
+rir_ea_tnd = rir_ea_tnd_ss;
+
+% IDENTITIES
+l_gdp_tnd = l_gdp_tnd{-1} + dl_gdp_tnd/4 + res_l_gdp_tnd; % incl. structural break
+
+l_rer_tnd = l_rer_tnd{-1} + dl_rer_tnd/4 + res_l_rer_tnd; % incl. structural break
+
+l_rer = l_er - l_cpi + l_cpi_ea;
+
+rir_pol = ir_pol - d4l_cpi{+1};
+
+l_cpi_ea = l_cpi_ea{-1} + dl_cpi_ea/4;
+
+l_cpi = l_cpi{-1} + dl_cpi/4;
+
+l_cpi = l_cpi{-4} + d4l_cpi;
+
+l_er_tar = l_er{-1} + dl_er_tar/4;
+
+% MAIN FOUR EQUATIONS
+% GDP gap
+l_gdp_gap = 0.7*l_gdp_gap{-1} - 0.4*mci + 0.3*l_gdp_ea_gap + res_l_gdp_gap;
+
+mci = 0.5*(-1)*l_rer_gap + 0.3*rir_pol_gap + (1 - 0.5 - 0.3)*prem_uip_gap;
+
+% Inflation
+dl_cpi = 0.4*dl_cpi{-1} + (1 - 0.4)*dl_cpi{+1} + 0.3*rmc + res_dl_cpi;
+
+rmc = 0.6*l_gdp_gap + (1 - 0.6)*l_rer_gap;
+
+% Exchange rate
+l_er = beta*l_er_tar + (1 - beta)*l_er_uip;
+
+l_er_uip = l_er{+1} + (ir_ea + prem_uip - ir_pol)/4 + res_l_er_uip;
+
+dl_er_tar = 0.5*dl_er_tar{-1} + (1 - 0.5)*(dl_rer_tnd + dl_cpi_tar - dl_cpi_ea_tar) + res_dl_er_tar;
+
+interv =  l_er - l_er_uip;
+
+% Interest rate
+ir_pol = alpha*ir_tlr + (1 - alpha)*ir_uip;
+
+ir_tlr = 0.8*ir_pol{-1} + (1 - 0.8)*(rir_tnd + d4l_cpi{+1} + coef*(d4l_cpi{+3} - dl_cpi_tar) + 0.5*l_gdp_gap) + res_ir_tlr;
+
+ir_uip = (l_er{+1} - l_er)*4 + ir_ea + prem_uip + res_ir_uip;
+
+% FOREIGN
+% Interest rate
+ir_ea = 0.8*ir_ea{-1} + (1 - 0.8)*(rir_ea_tnd + dl_cpi_ea_tar) + res_ir_ea;
+
+% Inflation
+dl_cpi_ea = 0.4*dl_cpi_ea{-1} + (1 - 0.4)*dl_cpi_ea_tar + res_dl_cpi_ea;
+
+% GDP gap
+l_gdp_ea_gap = 0.7*l_gdp_ea_gap{-1} + res_l_gdp_ea_gap;
+
+% Sovereign risk premium
+prem_uip_gap = 0.6*prem_uip_gap{-1} + res_prem_uip_gap;
+
+!transition_variables
+% CPI - concumer price index
+'CPI, q-o-q' dl_cpi
+'CPI, y-o-y' d4l_cpi
+'CPI' l_cpi
+
+% MCI - monetary conditions index
+'MCI' mci
+
+% RMC - real marginal costs
+'RMC' rmc
+
+% UAH/EUR - nominal exchange rate UAH per EUR
+'UAH/EUR' l_er
+'FX interventions' interv
+'UAH/EUR target' l_er_tar
+'UAH/EUR target, q-o-q' dl_er_tar
+'UAH/EUR UIP' l_er_uip
+
+% GDP - gross domestic product
+'GDP' l_gdp
+'GDP gap'  l_gdp_gap
+'GDP potential' l_gdp_tnd
+'GDP potential, q-o-q' dl_gdp_tnd
+
+% RER - real exchange rate UAH/EUR
+'RER' l_rer
+'RER gap' l_rer_gap
+'RER trend' l_rer_tnd
+'RER trend, q-o-q' dl_rer_tnd
+
+% IR - interest rate
+'IR Taylor rule' ir_tlr
+'IR UIP' ir_uip
+'IR' ir_pol
+
+% RIR - real interest rate
+'RIR' rir_pol
+'RIR gap' rir_pol_gap
+'Neutral RIR' rir_tnd
+
+% EA - Euro Area
+'EA IR' ir_ea
+'EA Neutral RIR' rir_ea_tnd
+'EA CPI' l_cpi_ea
+'EA CPI, q-o-q' dl_cpi_ea
+'EA GDP gap' l_gdp_ea_gap
+
+% Prem UIP - sovereign risk premium
+'Prem UIP' prem_uip
+'Prem UIP gap' prem_uip_gap
+'Prem UIP trend' prem_uip_tnd
+
+!transition_shocks
+res_l_gdp_gap
+res_dl_cpi
+res_l_er_uip
+res_dl_er_tar
+res_ir_uip
+res_ir_tlr
+res_dl_gdp_tnd
+res_dl_rer_tnd
+res_ir_ea
+res_dl_cpi_ea
+res_l_gdp_ea_gap
+res_prem_uip_gap
+res_l_gdp_tnd
+res_l_rer_tnd
+
+!parameters
+alpha
+beta
+
+coef
+
+dl_cpi_tar
+dl_rer_tnd_ss
+dl_gdp_tnd_ss
+prem_uip_tnd_ss
+dl_cpi_ea_tar
+rir_ea_tnd_ss
+
+!measurement_equations
+L_GDP = l_gdp;
+L_CPI = l_cpi;
+IR_POLICY = ir_pol;
+L_ER = l_er;
+IR_EA = ir_ea;
+L_CPI_EA = l_cpi_ea;
+L_GDP_EA_GAP = l_gdp_ea_gap;
+
+L_GDP_GAP = l_gdp_gap; % optional tunes on gaps
+% L_RER_GAP = l_rer_gap;
+
+!measurement_variables
+L_GDP
+L_CPI
+IR_POLICY
+L_ER
+IR_EA
+L_CPI_EA
+L_GDP_EA_GAP
+
+L_GDP_GAP
+% L_RER_GAP
+
+
+
+
+
+
