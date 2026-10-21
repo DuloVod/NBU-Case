@@ -1,0 +1,19 @@
+file,rows,columns,numeric_cells,role,sha256
+auxiliary_monthly.csv,321,25,5923,"context and optional extensions, not forced into 7-variable core",2ea212e9bc61b2ad36086995bef40e6ed92b1608124a59c76992fe11ccbae53b
+auxiliary_quarterly.csv,107,26,1977,context and optional extensions,1f8562072963126f4fd50f130aeac12c0219324fa0ea419a9186bf465d98eee0
+business_monthly.csv,87,6,420,activity context,df0a475a7491a82eff63f456b805ba5074231bd90e04c4690a2f43a155a835ec
+business_quarterly_latest.csv,14,12,21,"latest survey context, no invented long history",d9466b0d8b745fa26274a5b7cb2438ea574d911fe132f9072feca8c30e1f3670
+external_path_template.csv,10,7,2,unfilled future assumptions; not treated as observations,75fc0b29feac3204df050b3dddeeaa5e12f2f34c21829a6e7fe1210aa032c0cb
+monthly.csv,333,16,4516,reference only; raw monthly inputs preferred,b09969eaf644451597bf332c7b98e90b4b37f902edf7c833298161b1e76dd778
+nbu_benchmarks.csv,539,9,539,comparison only; excluded from model fitting,978d573c8bb1f45fdc20f6850233f0e8e63aee7b0893860d615ec1fc28979071
+nbu_external_assumptions.csv,191,8,191,optional scenario reference; excluded from automatic fitting,4806018caca2d1533e7ef66fab1a4adb694b4798785fc5eea50a9cf09d38c168
+observation_status.csv,749,3,0,supporting prepared data / audit,d870f3904df97b8095d634e56cf23ad09e3e88cf4abe3099665ca23f89b43d15
+quarterly_balanced.csv,66,8,462,supporting prepared data / audit,5cdd305df7da7ee2c9a3a8c9e8a62cde396ec9756285db175fff513631ce52a9
+quarterly_extended.csv,107,33,2680,supporting prepared data / audit,c9c8b7371b645d21a5377e2cc624bbdcd90c37caf717c70f147e2016ad279cf4
+quarterly_levels.csv,107,8,703,"GDP, policy rate, FX and foreign rate source",ee6245257bda0784bcbe195c632b5bbde0d6a4d4a6644e5e29da5b2fe42496bf
+quarterly_observations.csv,107,8,703,supporting prepared data / audit,613bb662dc837ad4cec92acd1b187b97cae25e7e46ff19d755c6a82d17fbd36f
+quarterly_training.csv,66,8,462,reference only; SA rebuilt inside every fold,dbeb88db6553f34d416041f78d243f99bd5791d62e48270c48e85f494c8edfae
+quarterly_transformations.csv,107,19,1759,supporting prepared data / audit,6b1fedf305dc0e7950fbfab6826373164aaf6058bd08e1e38247ef41fd568b4f
+surveys_monthly.csv,1320,12,2062,"expectations context, not realized inflation",ddcfe69d7b79ab5770ef4831f71f9d9f676f3ddc97e527061563e0b96087d29e
+surveys_quarterly.csv,416,7,832,expectations context,2f7dc10cbf7443f84259703e13326304bcdcdc6297e9465d2ce266258c199205
+uonia_daily.csv,1622,5,4866,supporting prepared data / audit,24234164a445bc433121d27cae123e660a2302eded2fccf6ccfbdd3bd17d7dea

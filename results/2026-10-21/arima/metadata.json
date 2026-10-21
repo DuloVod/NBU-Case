@@ -1,0 +1,137 @@
+{
+  "order": [
+    0,
+    1,
+    1
+  ],
+  "criterion": "AICc on training data only",
+  "parameters": {
+    "ma.L1": 0.6071790283905386,
+    "sigma2": 4.783892264409783
+  },
+  "candidates": [
+    {
+      "order": [
+        0,
+        0,
+        0
+      ],
+      "aicc": 433.79195241055976,
+      "converged": true,
+      "warnings": []
+    },
+    {
+      "order": [
+        0,
+        0,
+        1
+      ],
+      "aicc": 363.3648406464585,
+      "converged": true,
+      "warnings": [
+        "Non-invertible starting MA parameters found. Using zeros as starting parameters."
+      ]
+    },
+    {
+      "order": [
+        1,
+        0,
+        0
+      ],
+      "aicc": 323.5701198393142,
+      "converged": true,
+      "warnings": []
+    },
+    {
+      "order": [
+        1,
+        0,
+        1
+      ],
+      "aicc": 299.79537282267876,
+      "converged": true,
+      "warnings": []
+    },
+    {
+      "order": [
+        2,
+        0,
+        0
+      ],
+      "aicc": 300.6934428607188,
+      "converged": true,
+      "warnings": []
+    },
+    {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "aicc": 300.0373368217234,
+      "converged": true,
+      "warnings": []
+    },
+    {
+      "order": [
+        0,
+        1,
+        0
+      ],
+      "aicc": 316.90599679926225,
+      "converged": true,
+      "warnings": []
+    },
+    {
+      "order": [
+        0,
+        1,
+        1
+      ],
+      "aicc": 295.25741722015044,
+      "converged": true,
+      "warnings": []
+    },
+    {
+      "order": [
+        1,
+        1,
+        0
+      ],
+      "aicc": 301.0763067130043,
+      "converged": true,
+      "warnings": []
+    },
+    {
+      "order": [
+        1,
+        1,
+        1
+      ],
+      "aicc": 297.05004257600615,
+      "converged": true,
+      "warnings": []
+    },
+    {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "aicc": 300.1795199320092,
+      "converged": true,
+      "warnings": []
+    },
+    {
+      "order": [
+        2,
+        1,
+        1
+      ],
+      "aicc": 299.2934601187697,
+      "converged": true,
+      "warnings": []
+    }
+  ],
+  "intervals": "Gaussian conditional on selected specification"
+}

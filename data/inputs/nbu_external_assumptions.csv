@@ -1,0 +1,192 @@
+period,indicator,unit,value,status,vintage,source,locator
+2023,Офіційне фінансування,млрд дол.,42.9,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!D5
+2024,Офіційне фінансування,млрд дол.,41.9,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!E5
+2025,Офіційне фінансування,млрд дол.,52.39475657218752,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!F5
+2026,Офіційне фінансування,млрд дол.,87.0,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!G5
+2027,Офіційне фінансування,млрд дол.,59.2,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!H5
+2028,Офіційне фінансування,млрд дол.,33.2,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!I5
+2026,у т. ч. оборонна складова USL,млрд дол.,33.2,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!G6
+2027,у т. ч. оборонна складова USL,млрд дол.,16.7,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!H6
+2023,Міграція (чиста),млн осіб,-0.20000000000000018,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!D7
+2024,Міграція (чиста),млн осіб,-0.5,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!E7
+2025,Міграція (чиста),млн осіб,-0.3,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!F7
+2026,Міграція (чиста),млн осіб,-0.2,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!G7
+2027,Міграція (чиста),млн осіб,0.1,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!H7
+2028,Міграція (чиста),млн осіб,0.5,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!I7
+2023,Реальний ВВП країн – ОТП України (UAwGDP),% р/р,1.6,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!D8
+2024,Реальний ВВП країн – ОТП України (UAwGDP),% р/р,2.1,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!E8
+2025,Реальний ВВП країн – ОТП України (UAwGDP),% р/р,2.4,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!F8
+2026,Реальний ВВП країн – ОТП України (UAwGDP),% р/р,2.1,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!G8
+2027,Реальний ВВП країн – ОТП України (UAwGDP),% р/р,2.3,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!H8
+2028,Реальний ВВП країн – ОТП України (UAwGDP),% р/р,2.5,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!I8
+2023,Споживча інфляція в країнах – ОТП України (UAwCPI),% р/р,7.6,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!D9
+2024,Споживча інфляція в країнах – ОТП України (UAwCPI),% р/р,5.0,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!E9
+2025,Споживча інфляція в країнах – ОТП України (UAwCPI),% р/р,4.0,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!F9
+2026,Споживча інфляція в країнах – ОТП України (UAwCPI),% р/р,4.3,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!G9
+2027,Споживча інфляція в країнах – ОТП України (UAwCPI),% р/р,3.0,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!H9
+2028,Споживча інфляція в країнах – ОТП України (UAwCPI),% р/р,2.6,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!I9
+2023,"Сталь, Steel Billet Exp FOB Ukraine",дол./т,539.7,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!D11
+2024,"Сталь, Steel Billet Exp FOB Ukraine",дол./т,504.1,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!E11
+2025,"Сталь, Steel Billet Exp FOB Ukraine",дол./т,464.7,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!F11
+2026,"Сталь, Steel Billet Exp FOB Ukraine",дол./т,494.0,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!G11
+2027,"Сталь, Steel Billet Exp FOB Ukraine",дол./т,510.4,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!H11
+2028,"Сталь, Steel Billet Exp FOB Ukraine",дол./т,518.0,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!I11
+2023,"Сталь, Steel Billet Exp FOB Ukraine",% р/р,-12.684031710079267,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!D12
+2024,"Сталь, Steel Billet Exp FOB Ukraine",% р/р,-6.5962571799147725,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!E12
+2025,"Сталь, Steel Billet Exp FOB Ukraine",% р/р,-7.815909541757591,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!F12
+2026,"Сталь, Steel Billet Exp FOB Ukraine",% р/р,6.305143103077256,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!G12
+2027,"Сталь, Steel Billet Exp FOB Ukraine",% р/р,3.3198380566801404,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!H12
+2028,"Сталь, Steel Billet Exp FOB Ukraine",% р/р,1.4890282131661365,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!I12
+2023,"Залізна руда, China import Iron Ore Fines 62% FE",дол./т,120.6,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!D13
+2024,"Залізна руда, China import Iron Ore Fines 62% FE",дол./т,109.4,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!E13
+2025,"Залізна руда, China import Iron Ore Fines 62% FE",дол./т,100.2,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!F13
+2026,"Залізна руда, China import Iron Ore Fines 62% FE",дол./т,102.6,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!G13
+2027,"Залізна руда, China import Iron Ore Fines 62% FE",дол./т,97.4,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!H13
+2028,"Залізна руда, China import Iron Ore Fines 62% FE",дол./т,94.6,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!I13
+2023,"Залізна руда, China import Iron Ore Fines 62% FE",% р/р,-0.6589785831960597,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!D14
+2024,"Залізна руда, China import Iron Ore Fines 62% FE",% р/р,-9.286898839137635,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!E14
+2025,"Залізна руда, China import Iron Ore Fines 62% FE",% р/р,-8.409506398537474,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!F14
+2026,"Залізна руда, China import Iron Ore Fines 62% FE",% р/р,2.3952095808383262,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!G14
+2027,"Залізна руда, China import Iron Ore Fines 62% FE",% р/р,-5.0682261208576875,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!H14
+2028,"Залізна руда, China import Iron Ore Fines 62% FE",% р/р,-2.874743326488712,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!I14
+2023,"Пшениця, Soft Delivered Dunkirk Position 1, France",дол./т,264.1,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!D15
+2024,"Пшениця, Soft Delivered Dunkirk Position 1, France",дол./т,232.1,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!E15
+2025,"Пшениця, Soft Delivered Dunkirk Position 1, France",дол./т,227.7,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!F15
+2026,"Пшениця, Soft Delivered Dunkirk Position 1, France",дол./т,232.7,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!G15
+2027,"Пшениця, Soft Delivered Dunkirk Position 1, France",дол./т,231.1,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!H15
+2028,"Пшениця, Soft Delivered Dunkirk Position 1, France",дол./т,235.8,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!I15
+2023,"Пшениця, Soft Delivered Dunkirk Position 1, France",% р/р,-25.289957567185283,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!D16
+2024,"Пшениця, Soft Delivered Dunkirk Position 1, France",% р/р,-12.116622491480513,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!E16
+2025,"Пшениця, Soft Delivered Dunkirk Position 1, France",% р/р,-1.895734597156391,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!F16
+2026,"Пшениця, Soft Delivered Dunkirk Position 1, France",% р/р,2.195871761089151,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!G16
+2027,"Пшениця, Soft Delivered Dunkirk Position 1, France",% р/р,-0.6875805758487274,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!H16
+2028,"Пшениця, Soft Delivered Dunkirk Position 1, France",% р/р,2.0337516226741883,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!I16
+2023,"Кукурудза, Yellow #2 Delivery USA Gulf",дол./т,252.7,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!D17
+2024,"Кукурудза, Yellow #2 Delivery USA Gulf",дол./т,190.6,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!E17
+2025,"Кукурудза, Yellow #2 Delivery USA Gulf",дол./т,203.2,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!F17
+2026,"Кукурудза, Yellow #2 Delivery USA Gulf",дол./т,211.3,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!G17
+2027,"Кукурудза, Yellow #2 Delivery USA Gulf",дол./т,216.7,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!H17
+2028,"Кукурудза, Yellow #2 Delivery USA Gulf",дол./т,213.7,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!I17
+2023,"Кукурудза, Yellow #2 Delivery USA Gulf",% р/р,-20.634422110552762,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!D18
+2024,"Кукурудза, Yellow #2 Delivery USA Gulf",% р/р,-24.574594380688566,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!E18
+2025,"Кукурудза, Yellow #2 Delivery USA Gulf",% р/р,6.610703043022028,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!F18
+2026,"Кукурудза, Yellow #2 Delivery USA Gulf",% р/р,3.986220472440948,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!G18
+2027,"Кукурудза, Yellow #2 Delivery USA Gulf",% р/р,2.5556081400851696,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!H18
+2028,"Кукурудза, Yellow #2 Delivery USA Gulf",% р/р,-1.3844023996308294,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!I18
+2023,"Нафта, Brent",дол./бар.,82.6,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!D19
+2024,"Нафта, Brent",дол./бар.,80.7,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!E19
+2025,"Нафта, Brent",дол./бар.,69.0,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!F19
+2026,"Нафта, Brent",дол./бар.,87.5,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!G19
+2027,"Нафта, Brent",дол./бар.,75.1,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!H19
+2028,"Нафта, Brent",дол./бар.,68.1,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!I19
+2023,"Нафта, Brent",% р/р,-17.23446893787576,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!D20
+2024,"Нафта, Brent",% р/р,-2.30024213075059,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!E20
+2025,"Нафта, Brent",% р/р,-14.498141263940525,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!F20
+2026,"Нафта, Brent",% р/р,26.81159420289856,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!G20
+2027,"Нафта, Brent",% р/р,-14.171428571428578,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!H20
+2028,"Нафта, Brent",% р/р,-9.32090545938749,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!I20
+2023,"Газ, Dutch TTF",дол./тис. м3,465.6,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!D21
+2024,"Газ, Dutch TTF",дол./тис. м3,393.9,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!E21
+2025,"Газ, Dutch TTF",дол./тис. м3,430.5,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!F21
+2026,"Газ, Dutch TTF",дол./тис. м3,564.8,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!G21
+2027,"Газ, Dutch TTF",дол./тис. м3,516.3,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!H21
+2028,"Газ, Dutch TTF",дол./тис. м3,367.7,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!I21
+2023,"Газ, Dutch TTF",% р/р,-65.66118445313076,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!D22
+2024,"Газ, Dutch TTF",% р/р,-15.399484536082483,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!E22
+2025,"Газ, Dutch TTF",% р/р,9.291698400609306,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!F22
+2026,"Газ, Dutch TTF",% р/р,31.19628339140533,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!G22
+2027,"Газ, Dutch TTF",% р/р,-8.587110481586407,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!H22
+2028,"Газ, Dutch TTF",% р/р,-28.781716056556263,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!I22
+2023,Обмінний курс долара США відносно євро**,USD/EUR,1.08,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!D23
+2024,Обмінний курс долара США відносно євро**,USD/EUR,1.08,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!E23
+2025,Обмінний курс долара США відносно євро**,USD/EUR,1.13,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!F23
+2026,Обмінний курс долара США відносно євро**,USD/EUR,1.16,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!G23
+2027,Обмінний курс долара США відносно євро**,USD/EUR,1.18,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!H23
+2028,Обмінний курс долара США відносно євро**,USD/EUR,1.19,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!I23
+2023,Урожай зернових та зернобобових,млн т,59.8,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!D24
+2024,Урожай зернових та зернобобових,млн т,56.2,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!E24
+2025,Урожай зернових та зернобобових,млн т,61.0,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!F24
+2026,Урожай зернових та зернобобових,млн т,62.2,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!G24
+2027,Урожай зернових та зернобобових,млн т,63.1,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!H24
+2028,Урожай зернових та зернобобових,млн т,64.2,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!I24
+2023,Мінімальна зарплата**,грн,6700.0,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!D25
+2024,Мінімальна зарплата**,грн,7775.0,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!E25
+2025,Мінімальна зарплата**,грн,8000.0,historical_or_estimate,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!F25
+2026,Мінімальна зарплата**,грн,8647.0,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!G25
+2027,Мінімальна зарплата**,грн,9374.0,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!H25
+2028,Мінімальна зарплата**,грн,9997.0,NBU_assumption,2026-07,Macroeconomic_Forecast_table_2026_07.xlsx,'Припущення базового сценарію'!I25
+2024,Euro area real GDP growth,pct_yoy_annual,1.0,historical_or_estimate,2026-07,Tables_Charts_2026-Q3.xlsx,'4.8'!E4
+2025,Euro area real GDP growth,pct_yoy_annual,1.2,historical_or_estimate,2026-07,Tables_Charts_2026-Q3.xlsx,'4.8'!E5
+2026,Euro area real GDP growth,pct_yoy_annual,0.8,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.8'!E6
+2027,Euro area real GDP growth,pct_yoy_annual,1.3,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.8'!E7
+2028,Euro area real GDP growth,pct_yoy_annual,1.6,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.8'!E8
+2026Q3,Brent,USD_per_barrel,85.0,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.1'!B16
+2026Q3,Dutch_TTF,USD_per_1000m3,600.0,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.1'!D16
+2026Q4,Brent,USD_per_barrel,80.0,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.1'!B17
+2026Q4,Dutch_TTF,USD_per_1000m3,600.0,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.1'!D17
+2027Q1,Brent,USD_per_barrel,75.8,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.1'!B18
+2027Q1,Dutch_TTF,USD_per_1000m3,600.0,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.1'!D18
+2027Q2,Brent,USD_per_barrel,77.4,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.1'!B19
+2027Q2,Dutch_TTF,USD_per_1000m3,530.0,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.1'!D19
+2027Q3,Brent,USD_per_barrel,75.2,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.1'!B20
+2027Q3,Dutch_TTF,USD_per_1000m3,455.0,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.1'!D20
+2027Q4,Brent,USD_per_barrel,72.0,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.1'!B21
+2027Q4,Dutch_TTF,USD_per_1000m3,480.0,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.1'!D21
+2028Q1,Brent,USD_per_barrel,68.1,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.1'!B22
+2028Q1,Dutch_TTF,USD_per_1000m3,367.7,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.1'!D22
+2028Q2,Brent,USD_per_barrel,68.1,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.1'!B23
+2028Q2,Dutch_TTF,USD_per_1000m3,367.7,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.1'!D23
+2028Q3,Brent,USD_per_barrel,68.1,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.1'!B24
+2028Q3,Dutch_TTF,USD_per_1000m3,367.7,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.1'!D24
+2028Q4,Brent,USD_per_barrel,68.1,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.1'!B25
+2028Q4,Dutch_TTF,USD_per_1000m3,367.7,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.1'!D25
+2026Q3,Corn,USD_per_tonne,210.0,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.5'!B14
+2026Q3,Wheat,USD_per_tonne,240.1,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.5'!D14
+2026Q3,Sunflower_oil,USD_per_tonne,1205.8,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.5'!F14
+2026Q4,Corn,USD_per_tonne,217.0,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.5'!B15
+2026Q4,Wheat,USD_per_tonne,236.3,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.5'!D15
+2026Q4,Sunflower_oil,USD_per_tonne,1179.7,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.5'!F15
+2027Q1,Corn,USD_per_tonne,217.4,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.5'!B16
+2027Q1,Wheat,USD_per_tonne,234.2,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.5'!D16
+2027Q1,Sunflower_oil,USD_per_tonne,1158.3,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.5'!F16
+2027Q2,Corn,USD_per_tonne,217.8,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.5'!B17
+2027Q2,Wheat,USD_per_tonne,231.0,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.5'!D17
+2027Q2,Sunflower_oil,USD_per_tonne,1115.7,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.5'!F17
+2027Q3,Corn,USD_per_tonne,215.0,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.5'!B18
+2027Q3,Wheat,USD_per_tonne,226.7,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.5'!D18
+2027Q3,Sunflower_oil,USD_per_tonne,1070.4,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.5'!F18
+2027Q4,Corn,USD_per_tonne,216.5,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.5'!B19
+2027Q4,Wheat,USD_per_tonne,232.5,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.5'!D19
+2027Q4,Sunflower_oil,USD_per_tonne,1014.0,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.5'!F19
+2028Q1,Corn,USD_per_tonne,213.7,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.5'!B20
+2028Q1,Wheat,USD_per_tonne,235.8,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.5'!D20
+2028Q1,Sunflower_oil,USD_per_tonne,950.0,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.5'!F20
+2028Q2,Corn,USD_per_tonne,213.7,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.5'!B21
+2028Q2,Wheat,USD_per_tonne,235.8,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.5'!D21
+2028Q2,Sunflower_oil,USD_per_tonne,950.0,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.5'!F21
+2028Q3,Corn,USD_per_tonne,213.7,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.5'!B22
+2028Q3,Wheat,USD_per_tonne,235.8,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.5'!D22
+2028Q3,Sunflower_oil,USD_per_tonne,950.0,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.5'!F22
+2028Q4,Corn,USD_per_tonne,213.7,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.5'!B23
+2028Q4,Wheat,USD_per_tonne,235.8,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.5'!D23
+2028Q4,Sunflower_oil,USD_per_tonne,950.0,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.5'!F23
+2024Q1,Euro area inflation at quarter end,pct_yoy_eop,2.4,historical_or_estimate,2026-07,Tables_Charts_2026-Q3.xlsx,'4.9'!C4
+2024Q2,Euro area inflation at quarter end,pct_yoy_eop,2.5,historical_or_estimate,2026-07,Tables_Charts_2026-Q3.xlsx,'4.9'!C5
+2024Q3,Euro area inflation at quarter end,pct_yoy_eop,1.7,historical_or_estimate,2026-07,Tables_Charts_2026-Q3.xlsx,'4.9'!C6
+2024Q4,Euro area inflation at quarter end,pct_yoy_eop,2.4,historical_or_estimate,2026-07,Tables_Charts_2026-Q3.xlsx,'4.9'!C7
+2025Q1,Euro area inflation at quarter end,pct_yoy_eop,2.2,historical_or_estimate,2026-07,Tables_Charts_2026-Q3.xlsx,'4.9'!C8
+2025Q2,Euro area inflation at quarter end,pct_yoy_eop,2.0,historical_or_estimate,2026-07,Tables_Charts_2026-Q3.xlsx,'4.9'!C9
+2025Q3,Euro area inflation at quarter end,pct_yoy_eop,2.2,historical_or_estimate,2026-07,Tables_Charts_2026-Q3.xlsx,'4.9'!C10
+2025Q4,Euro area inflation at quarter end,pct_yoy_eop,2.0,historical_or_estimate,2026-07,Tables_Charts_2026-Q3.xlsx,'4.9'!C11
+2026Q1,Euro area inflation at quarter end,pct_yoy_eop,2.6,historical_or_estimate,2026-07,Tables_Charts_2026-Q3.xlsx,'4.9'!C12
+2026Q2,Euro area inflation at quarter end,pct_yoy_eop,2.8,historical_or_estimate,2026-07,Tables_Charts_2026-Q3.xlsx,'4.9'!C13
+2026Q3,Euro area inflation at quarter end,pct_yoy_eop,2.9,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.9'!C14
+2026Q4,Euro area inflation at quarter end,pct_yoy_eop,3.0,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.9'!C15
+2027Q1,Euro area inflation at quarter end,pct_yoy_eop,2.3,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.9'!C16
+2027Q2,Euro area inflation at quarter end,pct_yoy_eop,1.8,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.9'!C17
+2027Q3,Euro area inflation at quarter end,pct_yoy_eop,1.9,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.9'!C18
+2027Q4,Euro area inflation at quarter end,pct_yoy_eop,2.0,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.9'!C19
+2028Q1,Euro area inflation at quarter end,pct_yoy_eop,2.0,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.9'!C20
+2028Q2,Euro area inflation at quarter end,pct_yoy_eop,2.0,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.9'!C21
+2028Q3,Euro area inflation at quarter end,pct_yoy_eop,2.0,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.9'!C22
+2028Q4,Euro area inflation at quarter end,pct_yoy_eop,2.0,NBU_assumption,2026-07,Tables_Charts_2026-Q3.xlsx,'4.9'!C23

@@ -1,0 +1,15 @@
+period,series,value,unit,status,source,locator,publication_date,fieldwork_start,fieldwork_end,sample_n,note
+2026Q2,EXP_INFL_12M_business,11.6,pct_expected_inflation,survey,BOS_2026-Q3.pdf,p.3; sample p.4,2026-10-15,,,,Q2 retrospective comparison in Q3 publication
+2026Q3,EXP_INFL_12M_business,11.5,pct_expected_inflation,survey,BOS_2026-Q3.pdf,p.3; sample p.4,2026-10-15,2026-07-30,2026-08-28,664.0,"Quarterly survey label, not September fieldwork"
+2026Q2,EXP_FX_USD_12M_business,46.12,UAH_per_USD_expected,survey,BOS_2026-Q3.pdf,p.3; sample p.4,2026-10-15,,,,Q2 retrospective comparison in Q3 publication
+2026Q3,EXP_FX_USD_12M_business,46.9,UAH_per_USD_expected,survey,BOS_2026-Q3.pdf,p.3; sample p.4,2026-10-15,2026-07-30,2026-08-28,664.0,"Quarterly survey label, not September fieldwork"
+2026Q2,EXP_FX_EUR_12M_business,54.42,UAH_per_EUR_expected,survey,BOS_2026-Q3.pdf,p.3; sample p.4,2026-10-15,,,,Q2 retrospective comparison in Q3 publication
+2026Q3,EXP_FX_EUR_12M_business,54.85,UAH_per_EUR_expected,survey,BOS_2026-Q3.pdf,p.3; sample p.4,2026-10-15,2026-07-30,2026-08-28,664.0,"Quarterly survey label, not September fieldwork"
+2026Q2,BOI_business,107.0,index_neutral_100,survey,BOS_2026-Q3.pdf,p.3; sample p.4,2026-10-15,,,,Q2 retrospective comparison in Q3 publication
+2026Q3,BOI_business,100.8,index_neutral_100,survey,BOS_2026-Q3.pdf,p.3; sample p.4,2026-10-15,2026-07-30,2026-08-28,664.0,"Quarterly survey label, not September fieldwork"
+2026Q2,PRODUCTION_EXPECT_BALANCE,7.6,pct_positive_minus_negative,survey,BOS_2026-Q3.pdf,p.3; sample p.4,2026-10-15,,,,Q2 retrospective comparison in Q3 publication
+2026Q3,PRODUCTION_EXPECT_BALANCE,-11.9,pct_positive_minus_negative,survey,BOS_2026-Q3.pdf,p.3; sample p.4,2026-10-15,2026-07-30,2026-08-28,664.0,"Quarterly survey label, not September fieldwork"
+2026Q2,BORROWING_NEED_BALANCE,35.3,pct_positive_minus_negative,survey,BOS_2026-Q3.pdf,p.3; sample p.4,2026-10-15,,,,Q2 retrospective comparison in Q3 publication
+2026Q3,BORROWING_NEED_BALANCE,32.6,pct_positive_minus_negative,survey,BOS_2026-Q3.pdf,p.3; sample p.4,2026-10-15,2026-07-30,2026-08-28,664.0,"Quarterly survey label, not September fieldwork"
+2026Q2,PLAN_BANK_CREDIT_SHARE,36.0,pct_respondents,survey,BOS_2026-Q3.pdf,p.3; sample p.4,2026-10-15,,,,Q2 retrospective comparison in Q3 publication
+2026Q3,PLAN_BANK_CREDIT_SHARE,35.6,pct_respondents,survey,BOS_2026-Q3.pdf,p.3; sample p.4,2026-10-15,2026-07-30,2026-08-28,664.0,"Quarterly survey label, not September fieldwork"

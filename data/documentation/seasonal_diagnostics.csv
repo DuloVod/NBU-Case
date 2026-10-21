@@ -1,0 +1,3 @@
+series,method,period,seasonal_window,trend_window,low_pass,n,month_mean_dispersion_before,month_mean_dispersion_after,last_seasonal_factor,calendar_adjusted
+cpi_ua,robust STL on log level,12,13,21,13,309,0.5613947052050073,0.24042592610651084,0.9969031539520876,False
+cpi_ea,robust STL on log level,12,13,21,13,321,0.38112513184823277,0.04463415154646191,1.0036733658488552,False

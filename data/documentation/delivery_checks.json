@@ -1,0 +1,17 @@
+{
+  "excel_output_files": 1,
+  "output_sheets": 20,
+  "cells_compared": 47115,
+  "numeric_cells_verified": 20228,
+  "headers_split_into_separate_cells": true,
+  "output_error_cells": 0,
+  "raw_excel_files": 18,
+  "raw_excel_sheets": 219,
+  "local_csv_pairs_checked": 17,
+  "independent_annual_flow_checks": 96,
+  "data_checks_passed": 36,
+  "core_complete_quarters": 66,
+  "core_variables": 7,
+  "visual_review": "All sheet previews reviewed",
+  "identically_reproduced_model_csv_files": 18
+}

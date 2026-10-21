@@ -1,0 +1,17 @@
+# Preserve the exact bytes of downloaded and tabular research inputs.
+*.csv -text
+data/raw/** -text -diff -whitespace
+data/inputs/** -text -whitespace
+data/model/** -text -whitespace
+data/csv_for_excel/** -text -whitespace
+*.xlsx binary
+*.xls binary
+*.pdf binary
+*.docx binary
+*.png binary
+
+# Keep collaboratively edited code and documentation portable.
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.mjs text eol=lf

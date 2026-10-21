@@ -1,0 +1,49 @@
+variable,unit,meaning,transformation,role,source
+gdp,million_UAH_2021_prices,"ВВП України, SA",Без повторного коригування,QPM core,Держстат
+cpi,index_2021_100,"ІСЦ України, дослідницька SA","Robust STL(log), потім середнє 3 місяців",QPM core,НБУ / Держстат
+ir_pol,pct_per_annum,"Облікова ставка, середня за календарні дні",Середнє щоденних чинних ставок,QPM core,Архів рішень НБУ
+er,UAH_per_EUR,"Курс, середнє місячних середніх",Просте середнє 3 місяців,QPM core,НБУ
+gdp_ea,index_2020_100,"ВВП єврозони, SCA",Офіційний рівень,QPM core,Eurostat
+cpi_ea,index_2021_100,"HICP єврозони, дослідницька SA","Robust STL(log), потім середнє 3 місяців",QPM core,Eurostat
+ir_ea,pct_per_annum,"Депозитна ставка ЄЦБ, календарне середнє",Єдина конвенція з ir_pol; EOQ збережено у inputs,QPM core,ECB
+l_gdp,log_x100,gdp,100*ln(X),transformed observable,quarterly_levels
+dl_gdp,annualized_log_pct_qoq,gdp,400*ln(X_t/X_t-1),transformed observable,quarterly_levels
+d4l_gdp,log_pct_yoy,gdp,100*ln(X_t/X_t-4),transformed observable,quarterly_levels
+l_cpi,log_x100,cpi,100*ln(X),transformed observable,quarterly_levels
+dl_cpi,annualized_log_pct_qoq,cpi,400*ln(X_t/X_t-1),transformed observable,quarterly_levels
+d4l_cpi,log_pct_yoy,cpi,100*ln(X_t/X_t-4),transformed observable,quarterly_levels
+l_er,log_x100,er,100*ln(X),transformed observable,quarterly_levels
+dl_er,annualized_log_pct_qoq,er,400*ln(X_t/X_t-1),transformed observable,quarterly_levels
+d4l_er,log_pct_yoy,er,100*ln(X_t/X_t-4),transformed observable,quarterly_levels
+l_gdp_ea,log_x100,gdp_ea,100*ln(X),transformed observable,quarterly_levels
+dl_gdp_ea,annualized_log_pct_qoq,gdp_ea,400*ln(X_t/X_t-1),transformed observable,quarterly_levels
+d4l_gdp_ea,log_pct_yoy,gdp_ea,100*ln(X_t/X_t-4),transformed observable,quarterly_levels
+l_cpi_ea,log_x100,cpi_ea,100*ln(X),transformed observable,quarterly_levels
+dl_cpi_ea,annualized_log_pct_qoq,cpi_ea,400*ln(X_t/X_t-1),transformed observable,quarterly_levels
+d4l_cpi_ea,log_pct_yoy,cpi_ea,100*ln(X_t/X_t-4),transformed observable,quarterly_levels
+brent,USD_per_barrel,brent,Quarter arithmetic mean of 3 available months,auxiliary,WorldBank_commodities.xlsx
+current_account,million_USD,current_account,Quarter sum,auxiliary,BOP_m.xlsx
+exports_goods,million_USD,exports_goods,Quarter sum,auxiliary,BOP_m.xlsx
+exports_services,million_USD,exports_services,Quarter sum,auxiliary,BOP_m.xlsx
+fao_cereals,index_2014_2016_100,fao_cereals,Quarter arithmetic mean of 3 available months,auxiliary,FAO_food.csv
+fao_dairy,index_2014_2016_100,fao_dairy,Quarter arithmetic mean of 3 available months,auxiliary,FAO_food.csv
+fao_food,index_2014_2016_100,fao_food,Quarter arithmetic mean of 3 available months,auxiliary,FAO_food.csv
+fao_meat,index_2014_2016_100,fao_meat,Quarter arithmetic mean of 3 available months,auxiliary,FAO_food.csv
+fao_oils,index_2014_2016_100,fao_oils,Quarter arithmetic mean of 3 available months,auxiliary,FAO_food.csv
+fao_sugar,index_2014_2016_100,fao_sugar,Quarter arithmetic mean of 3 available months,auxiliary,FAO_food.csv
+gas_europe,USD_per_MMBtu,gas_europe,Quarter arithmetic mean of 3 available months,auxiliary,WorldBank_commodities.xlsx
+imports_goods,million_USD,imports_goods,Quarter sum,auxiliary,BOP_m.xlsx
+imports_services,million_USD,imports_services,Quarter sum,auxiliary,BOP_m.xlsx
+loan_nfc_uah,pct_per_annum,loan_nfc_uah,Quarter arithmetic mean of 3 available months,auxiliary,Financial_markets.xlsx
+loan_nfc_uah_ex_overdraft,pct_per_annum,loan_nfc_uah_ex_overdraft,Quarter arithmetic mean of 3 available months,auxiliary,Financial_markets.xlsx
+trade_balance_goods,million_USD,trade_balance_goods,Quarter sum,auxiliary,BOP_m.xlsx
+trade_balance_gs,million_USD,trade_balance_gs,Quarter sum,auxiliary,BOP_m.xlsx
+trade_balance_services,million_USD,trade_balance_services,Quarter sum,auxiliary,BOP_m.xlsx
+unemployment_ilo_15plus,pct_labour_force,unemployment_ilo_15plus,"Native quarterly, no YTD conversion",auxiliary,Unemp_q.xlsx
+uonia,pct_per_annum,uonia,Quarter arithmetic mean of 3 available months,auxiliary,UONIA.xls
+wage_nominal,UAH_per_employee_per_month,wage_nominal,Quarter arithmetic mean of 3 available months,auxiliary,Wages_m.xlsx
+wheat_us_hrw,USD_per_tonne,wheat_us_hrw,Quarter arithmetic mean of 3 available months,auxiliary,WorldBank_commodities.xlsx
+wheat_us_srw,USD_per_tonne,wheat_us_srw,Quarter arithmetic mean of 3 available months,auxiliary,WorldBank_commodities.xlsx
+exports_gs,million_USD,Експорт товарів та послуг,exports_goods + exports_services; квартал сума,auxiliary,BOP_m.xlsx
+imports_gs,million_USD,Імпорт товарів та послуг,imports_goods + imports_services; квартал сума,auxiliary,BOP_m.xlsx
+rer_index_2021_100,index_2021_100,"Реальний курс, більше = реальне знецінення","er*cpi_ea/cpi, нормування середнього 2021",diagnostic,quarterly_levels

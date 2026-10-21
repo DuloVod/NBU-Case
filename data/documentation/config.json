@@ -1,0 +1,27 @@
+{
+  "data_vintage": "Core files retrieved 2026-10-20; auxiliary files retrieved 2026-10-21",
+  "last_month": "2026-09",
+  "balanced_start": "2010Q1",
+  "balanced_end": "2026Q2",
+  "price_adjustment": {
+    "method": "research robust log-STL",
+    "period": 12,
+    "seasonal": 13,
+    "trend": 21,
+    "low_pass": 13,
+    "robust": true,
+    "calendar_adjustment": false
+  },
+  "rates": "calendar-day arithmetic means for both NBU and ECB",
+  "missing": "NaN; no fill/interpolation",
+  "log_scale": 100,
+  "qoq_annualized_scale": 400,
+  "gaps": "must be estimated by own QPM; no official estimate copied as fact",
+  "versions": {
+    "python": "3.12.14",
+    "pandas": "3.0.6",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0"
+  }
+}

@@ -1,0 +1,37 @@
+check,status,detail
+cpi_ua monthly continuity,PASS,309
+cpi_ua reconstruction,PASS,2.842170943040401e-14
+cpi_ua positive adjusted prices,PASS,11.9334072091418
+cpi_ua 2021 mean=100,PASS,100.0
+cpi_ea monthly continuity,PASS,321
+cpi_ea reconstruction,PASS,1.4210854715202004e-14
+cpi_ea positive adjusted prices,PASS,69.83408346879561
+cpi_ea 2021 mean=100,PASS,100.00000000000001
+66 complete quarters,PASS,"(66, 7)"
+GDP Q3 not fabricated,PASS,Both GDP unavailable
+gdp official SA unchanged,PASS,gdp
+gdp_ea official SA unchanged,PASS,gdp_ea
+Real exchange rate identity,PASS,"ER * P_EA / P_UA, normalized 2021"
+Training observations have no missing values,PASS,"(66, 7)"
+UONIA unique daily dates,PASS,1622
+Auxiliary unique series-period keys,PASS,7947
+BOP continuous monthly history,PASS,200 months; source month abbreviation variants normalized
+New-loan continuous monthly history,PASS,Year label 2010 with footnote parsed as year 2010
+BOP goods balance,PASS,Tolerance 2 million USD for independently rounded components
+BOP services balance,PASS,Tolerance 2 million USD
+BOP combined balance,PASS,Tolerance 2 million USD
+ILO cumulative rates excluded,PASS,12
+No fabricated postwar ILO,PASS,Post-2021 actual ILO unavailable
+levels unique ordered periods,PASS,107
+levels no infinity,PASS,"(107, 7)"
+observations unique ordered periods,PASS,107
+observations no infinity,PASS,"(107, 18)"
+auxiliary_monthly unique ordered periods,PASS,321
+auxiliary_monthly no infinity,PASS,"(321, 24)"
+auxiliary_quarterly unique ordered periods,PASS,107
+auxiliary_quarterly no infinity,PASS,"(107, 25)"
+cpi positive for logarithms,PASS,12.038850086599107
+cpi_ea positive for logarithms,PASS,69.97869597448916
+gdp positive for logarithms,PASS,852889.0
+gdp_ea positive for logarithms,PASS,83.063
+er positive for logarithms,PASS,4.6621
