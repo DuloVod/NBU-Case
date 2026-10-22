@@ -1,0 +1,225 @@
+{
+  "order": [
+    1,
+    1,
+    0
+  ],
+  "seasonal_order": [
+    0,
+    1,
+    1,
+    12
+  ],
+  "criterion": "AICc on training data only",
+  "parameters": {
+    "ar.L1": 0.31494305950954876,
+    "ma.S.L12": -0.9991428795262368,
+    "sigma2": 1.9498330376346134
+  },
+  "candidates": [
+    {
+      "order": [
+        1,
+        0,
+        0
+      ],
+      "seasonal_order": [
+        1,
+        0,
+        0,
+        12
+      ],
+      "aicc": 730.3989929073196,
+      "converged": true,
+      "warnings": []
+    },
+    {
+      "order": [
+        1,
+        0,
+        0
+      ],
+      "seasonal_order": [
+        0,
+        0,
+        1,
+        12
+      ],
+      "aicc": 730.3972359775578,
+      "converged": true,
+      "warnings": [
+        "Non-invertible starting seasonal moving average Using zeros as starting parameters."
+      ]
+    },
+    {
+      "order": [
+        1,
+        0,
+        0
+      ],
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        12
+      ],
+      "aicc": 719.5056694207523,
+      "converged": true,
+      "warnings": []
+    },
+    {
+      "order": [
+        1,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        1,
+        0,
+        0,
+        12
+      ],
+      "aicc": 705.2501700735843,
+      "converged": true,
+      "warnings": []
+    },
+    {
+      "order": [
+        1,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        0,
+        0,
+        1,
+        12
+      ],
+      "aicc": 705.2501193948985,
+      "converged": true,
+      "warnings": []
+    },
+    {
+      "order": [
+        1,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        12
+      ],
+      "aicc": 698.8901249959295,
+      "converged": true,
+      "warnings": []
+    },
+    {
+      "order": [
+        0,
+        1,
+        1
+      ],
+      "seasonal_order": [
+        1,
+        0,
+        0,
+        12
+      ],
+      "aicc": 706.4880114265904,
+      "converged": true,
+      "warnings": []
+    },
+    {
+      "order": [
+        0,
+        1,
+        1
+      ],
+      "seasonal_order": [
+        0,
+        0,
+        1,
+        12
+      ],
+      "aicc": 706.4865056524418,
+      "converged": true,
+      "warnings": []
+    },
+    {
+      "order": [
+        0,
+        1,
+        1
+      ],
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        12
+      ],
+      "aicc": 700.4256696956884,
+      "converged": true,
+      "warnings": []
+    },
+    {
+      "order": [
+        1,
+        1,
+        1
+      ],
+      "seasonal_order": [
+        1,
+        0,
+        0,
+        12
+      ],
+      "aicc": 707.326828115145,
+      "converged": true,
+      "warnings": []
+    },
+    {
+      "order": [
+        1,
+        1,
+        1
+      ],
+      "seasonal_order": [
+        0,
+        0,
+        1,
+        12
+      ],
+      "aicc": 707.326700054577,
+      "converged": true,
+      "warnings": []
+    },
+    {
+      "order": [
+        1,
+        1,
+        1
+      ],
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        12
+      ],
+      "aicc": 700.9525444942416,
+      "converged": true,
+      "warnings": []
+    }
+  ],
+  "intervals": "Gaussian conditional on selected specification",
+  "frequency": "M",
+  "annual_seasonal_period": 12,
+  "target": "calendar_day_average_policy_rate",
+  "as_of": "2026-10-22",
+  "training_end": "2026-09",
+  "next_month": "2026-11",
+  "partial_measurement_history": 201,
+  "known_days": 22,
+  "measurement": "prefix mean and spot rate; correlated historical errors versus final month mean"
+}

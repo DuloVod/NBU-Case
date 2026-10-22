@@ -8,6 +8,9 @@ from statsmodels.tsa.api import VAR
 class VARModel:
     name = 'VAR'
 
+    def __init__(self,lag_candidates=(1,2)):
+        self.lag_candidates=lag_candidates
+
     def features(self, frame):
         return pd.DataFrame(dict(d_ir_pol=frame.ir_pol.diff(),
                                  inflation_qoq=4*frame.l_cpi.diff(),
@@ -17,10 +20,10 @@ class VARModel:
     def fit_forecast(self, frame, horizon=9):
         features = self.features(frame)
         train = features.dropna()
-        if not train.index.equals(pd.period_range(train.index[0],train.index[-1],freq='Q')):
+        if not train.index.equals(pd.period_range(train.index[0],train.index[-1],freq=frame.index.freq)):
             raise ValueError('Internal training gaps must not be silently deleted')
         candidates,successes = [],[]
-        for lag in [1,2]:
+        for lag in self.lag_candidates:
             # With about 30--65 quarters, large VARs are severely overparameterized.
             # Require five usable observations per coefficient per equation.
             if len(train)-lag < 5*(1+len(features.columns)*lag):
@@ -51,7 +54,7 @@ class VARModel:
         noise[-1,-1] = covariance[0,0]
         state = np.r_[np.concatenate([history[-j] for j in range(1,p+1)]),frame.loc[train.index[-1],'ir_pol']]
         intercept = np.r_[self.result.intercept,np.zeros(k*(p-1)),self.result.intercept[0]]
-        for period in pd.period_range(train.index[-1]+1,frame.index[-1],freq='Q'):
+        for period in pd.period_range(train.index[-1]+1,frame.index[-1],freq=frame.index.freq):
             state = transition@state+intercept
             state_cov = transition@state_cov@transition.T+noise
             row = features.loc[period]
@@ -65,15 +68,21 @@ class VARModel:
             conditioning.append(dict(period=str(period),observed=[features.columns[i] for i in known],
                                      nowcasted=[features.columns[i] for i in missing]))
             nowcasts.append(dict(period=str(period),ir_pol=state[-1],**dict(zip(features.columns,state[:k]))))
-        rows = []
-        for step,period in enumerate(pd.period_range(frame.index[-1]+1,periods=horizon,freq='Q'),1):
+        rows,forecast_covariances = [],[]
+        for step,period in enumerate(pd.period_range(frame.index[-1]+1,periods=horizon,freq=frame.index.freq),1):
             state = transition@state+intercept
             state_cov = transition@state_cov@transition.T+noise
+            forecast_covariances.append(state_cov.copy())
             mean,std = state[-1],np.sqrt(max(0,state_cov[-1,-1]))
             rows.append(dict(period=str(period),mean=mean,lower80=mean-norm.ppf(.9)*std,
                              upper80=mean+norm.ppf(.9)*std,lower95=mean-norm.ppf(.975)*std,
                              upper95=mean+norm.ppf(.975)*std,horizon=step))
         self.nowcasts = pd.DataFrame(nowcasts)
+        self.forecast_covariance=np.empty((horizon,horizon))
+        for i in range(horizon):
+            for j in range(i,horizon):
+                value=forecast_covariances[i][-1,:]@np.linalg.matrix_power(transition,j-i)[-1,:]
+                self.forecast_covariance[i,j]=self.forecast_covariance[j,i]=value
         return pd.DataFrame(rows),dict(lags=p,criterion='BIC on training data only, preferring stable candidates',
                                        stable=not unstable,policy_rate_transform='first difference; forecast integrated back to level',
                                        variables=list(features.columns),candidates=candidates,

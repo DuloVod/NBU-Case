@@ -1,0 +1,148 @@
+{
+  "order": [
+    1,
+    1,
+    0
+  ],
+  "criterion": "AICc on training data only",
+  "parameters": {
+    "ar.L1": 0.31016533262868407,
+    "sigma2": 1.9294792876661593
+  },
+  "candidates": [
+    {
+      "order": [
+        0,
+        0,
+        0
+      ],
+      "aicc": 1301.1279939547724,
+      "converged": true,
+      "warnings": []
+    },
+    {
+      "order": [
+        0,
+        0,
+        1
+      ],
+      "aicc": 1073.7762608690464,
+      "converged": true,
+      "warnings": [
+        "Non-invertible starting MA parameters found. Using zeros as starting parameters."
+      ]
+    },
+    {
+      "order": [
+        1,
+        0,
+        0
+      ],
+      "aicc": 728.3238043010836,
+      "converged": true,
+      "warnings": []
+    },
+    {
+      "order": [
+        1,
+        0,
+        1
+      ],
+      "aicc": 709.8073160905733,
+      "converged": true,
+      "warnings": []
+    },
+    {
+      "order": [
+        2,
+        0,
+        0
+      ],
+      "aicc": 707.3736592212429,
+      "converged": true,
+      "warnings": []
+    },
+    {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "aicc": 708.655312930554,
+      "converged": true,
+      "warnings": []
+    },
+    {
+      "order": [
+        0,
+        1,
+        0
+      ],
+      "aicc": 721.4870529799183,
+      "converged": true,
+      "warnings": []
+    },
+    {
+      "order": [
+        0,
+        1,
+        1
+      ],
+      "aicc": 704.4385813247256,
+      "converged": true,
+      "warnings": []
+    },
+    {
+      "order": [
+        1,
+        1,
+        0
+      ],
+      "aicc": 703.1891262645152,
+      "converged": true,
+      "warnings": []
+    },
+    {
+      "order": [
+        1,
+        1,
+        1
+      ],
+      "aicc": 705.2453613682402,
+      "converged": true,
+      "warnings": []
+    },
+    {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "aicc": 705.2480913739457,
+      "converged": true,
+      "warnings": []
+    },
+    {
+      "order": [
+        2,
+        1,
+        1
+      ],
+      "aicc": 707.2281826308515,
+      "converged": true,
+      "warnings": [
+        "Non-invertible starting MA parameters found. Using zeros as starting parameters.",
+        "Non-stationary starting autoregressive parameters found. Using zeros as starting parameters."
+      ]
+    }
+  ],
+  "intervals": "Gaussian conditional on selected specification",
+  "frequency": "M",
+  "target": "calendar_day_average_policy_rate",
+  "training_end": "2026-09",
+  "as_of": "2026-10-22",
+  "next_month": "2026-11",
+  "partial_measurement_history": 201,
+  "known_days": 22,
+  "measurement": "prefix mean and spot rate; correlated historical errors versus final month mean"
+}

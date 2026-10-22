@@ -35,7 +35,7 @@ class ARIMAModel:
         _,self.result,order = min(successes,key=lambda x:x[0])
         predicted = self.result.get_forecast(horizon)
         ci80,ci95 = np.asarray(predicted.conf_int(alpha=.2)),np.asarray(predicted.conf_int(alpha=.05))
-        forecast = pd.DataFrame(dict(period=[str(x) for x in pd.period_range(frame.index[-1]+1,periods=horizon,freq='Q')],
+        forecast = pd.DataFrame(dict(period=[str(x) for x in pd.period_range(frame.index[-1]+1,periods=horizon,freq=frame.index.freq)],
                                      mean=np.asarray(predicted.predicted_mean),lower80=ci80[:,0],upper80=ci80[:,1],
                                      lower95=ci95[:,0],upper95=ci95[:,1],horizon=np.arange(1,horizon+1)))
         return forecast,dict(order=list(order),criterion='AICc on training data only',

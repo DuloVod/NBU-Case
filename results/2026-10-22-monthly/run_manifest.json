@@ -1,0 +1,58 @@
+{
+  "as_of": "2026-10-22",
+  "target_month": "2026-11",
+  "frequency": "M",
+  "target": "calendar-day average NBU policy rate over next month; percent per annum",
+  "completed_training_end": "2026-09",
+  "current_month_is_partial": true,
+  "known_days": 22,
+  "current_prefix_average": 16.0,
+  "current_effective_rate": 16.0,
+  "partial_measurement_bias": [
+    0.01451956805832586,
+    0.025713597909072145
+  ],
+  "partial_measurement_covariance": [
+    [
+      0.023267540760110283,
+      -0.018616636829987942
+    ],
+    [
+      -0.018616636829987942,
+      0.09259193662839046
+    ]
+  ],
+  "historical_origins": 92,
+  "backtest_predictions": 368,
+  "quarter_to_month": "QPM bridge; quarterly structural parameters unchanged",
+  "data_vintage": "macro 2026-10-20/21, policy archive verified 2026-10-22; historical revisions retained",
+  "input_files": {
+    "models/monthly_sarima.py": "8a291208f4f9475c1d913ae2ff686cbc968285477562bff69cdc96b86c56200d",
+    "models/monthly_arima.py": "491fa30fc4d8f98646bdc31b6819360c861fa940776cf2fe9239d1e91e9a2a60",
+    "models/monthly_common.py": "8478e926acd42b29cc148fab080b43d1ea5ac36a85e53f22ebf248c89e9f99d6",
+    "models/qpm.py": "b10b33ed4a114779c9ce05f0e471bc8807fa8c49b93862ff3ee9f900a5cdddb1",
+    "models/monthly_var.py": "a157823ce2c041c72dcbeaa70db7f9bc1726c9fafc86c92142a372db201bab9e",
+    "models/make_monthly_report.py": "4a0c9b6b59d6c970579b337891211e9bc6ffef43cc02b5d5bcb9f21de78a6461",
+    "models/var.py": "d1b78485715691f9ba35bf3054a1f81de4e98397a238daf7af6e1a5785a49d87",
+    "models/sarima.py": "17033ae02b90f053b1925723c1b198c70c564347c135341a20a2a84b923ad63b",
+    "models/common.py": "ec08ab5a81fba33ffdfc843f5064fa1d2152510abce4ded4b0418b9b9abc9600",
+    "models/make_report.py": "53b0e5b8be5c078a6f673409ff0142c1b677def07d8d1d6f6eeaee6f68eec5bd",
+    "models/run_all.py": "61d1fe237a3ba0ec9fcf987198858a67d540f78655b4cbbc28002fa423741e80",
+    "models/run_monthly.py": "33d0845aabc73af1aec6db8cd5236b5f10cf978e84c159df802f69ad5e708194",
+    "models/monthly_qpm.py": "ee4777b0a65e6822fc06dba01fec308123756d762403c70c7234f590b655d500",
+    "models/arima.py": "84e1547ad96903799407f57860e5fb46ba928bf02b55c29d6c0ceb454974a6f5",
+    "data/snapshots/2026-10-22/policy_archive.json": "3dc672b08432a651c16d14980c98da7dc0750dac03bdde569f4217f4b6daa742",
+    "data/inputs/core_monthly.csv": "30ecda574a8f06bb6b100814e3f1bb9fca771e53499b6343c8e681cd413cac28",
+    "data/inputs/policy_decisions.csv": "15ca4e7c7fd7f486670fa32ed3b05bb081e591b647fb0e5e8501e1e243c9673d",
+    "data/model/quarterly_levels.csv": "ee6245257bda0784bcbe195c632b5bbde0d6a4d4a6644e5e29da5b2fe42496bf",
+    "data/model/auxiliary_monthly.csv": "2ea212e9bc61b2ad36086995bef40e6ed92b1608124a59c76992fe11ccbae53b",
+    "data/model/auxiliary_quarterly.csv": "1f8562072963126f4fd50f130aeac12c0219324fa0ea419a9186bf465d98eee0"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0"
+  }
+}
