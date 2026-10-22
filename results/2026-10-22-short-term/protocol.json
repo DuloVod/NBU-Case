@@ -1,0 +1,61 @@
+{
+  "as_of": "2026-10-22",
+  "target_months": [
+    "2026-11",
+    "2026-12",
+    "2027-01"
+  ],
+  "target": "calendar-day average NBU policy rate, percent per annum",
+  "horizons_months": [
+    1,
+    2,
+    3
+  ],
+  "base_models": [
+    "ARIMA",
+    "SARIMA",
+    "VAR",
+    "QPM_BRIDGE"
+  ],
+  "ensemble": "inverse prior MAE across four models; learned shrinkage to no-change",
+  "weight_history": "last36 resolved targets, target<origin; minimum12; cap model-blend weight0.5; ridge denominator1",
+  "selection": "minimum validation MAE for each horizon; RMSE then model-name ties; never select on audit",
+  "selected_models": {
+    "1": "NO_CHANGE",
+    "2": "NO_CHANGE",
+    "3": "NO_CHANGE"
+  },
+  "validation_target_end": "2024-09",
+  "audit_targets": "2024-10 to2026-09",
+  "historical_origin_end_by_horizon": {
+    "1": "2026-08",
+    "2": "2026-07",
+    "3": "2026-06"
+  },
+  "caveats": [
+    "current revised vintages and approximate publication lags",
+    "audit dates already inspected, not pristine external holdout",
+    "empirical intervals are not conditional coverage guarantees",
+    "QPM quarterly model uses monthly bridge, not invented monthly GDP",
+    "discrete meeting dates not imposed on statistical point expectations"
+  ],
+  "input_sha256": {
+    "models/research_short_term.py": "fd8c4e9e0901f45b3546e8821aedfe424fe7d7a961703f3236f29254d6c7e14a",
+    "models/monthly_arima.py": "610cda74baf0a6627174dc63b55289194d37fd31f9bb4977be2643b448964d6b",
+    "models/monthly_sarima.py": "0060e4360da88e1685abb5413178da5b7213f9c150902be237dc93c5e9f61b0a",
+    "models/monthly_var.py": "ef7fd08e1d30233f6129e31a28a34b98ac50cacc0fc2847fc1716c82b412d113",
+    "models/monthly_qpm.py": "34ba32a82e6ab79a60619f92fd1f46269d475375a3edbac4c2dc721a3a4d7b95",
+    "models/arima.py": "84e1547ad96903799407f57860e5fb46ba928bf02b55c29d6c0ceb454974a6f5",
+    "models/sarima.py": "17033ae02b90f053b1925723c1b198c70c564347c135341a20a2a84b923ad63b",
+    "models/var.py": "d1b78485715691f9ba35bf3054a1f81de4e98397a238daf7af6e1a5785a49d87",
+    "models/qpm.py": "b10b33ed4a114779c9ce05f0e471bc8807fa8c49b93862ff3ee9f900a5cdddb1",
+    "models/monthly_common.py": "8478e926acd42b29cc148fab080b43d1ea5ac36a85e53f22ebf248c89e9f99d6",
+    "models/common.py": "ec08ab5a81fba33ffdfc843f5064fa1d2152510abce4ded4b0418b9b9abc9600",
+    "data/inputs/core_monthly.csv": "30ecda574a8f06bb6b100814e3f1bb9fca771e53499b6343c8e681cd413cac28",
+    "data/inputs/policy_decisions.csv": "15ca4e7c7fd7f486670fa32ed3b05bb081e591b647fb0e5e8501e1e243c9673d",
+    "data/model/quarterly_levels.csv": "ee6245257bda0784bcbe195c632b5bbde0d6a4d4a6644e5e29da5b2fe42496bf",
+    "data/snapshots/2026-10-22/policy_archive.json": "3dc672b08432a651c16d14980c98da7dc0750dac03bdde569f4217f4b6daa742",
+    "nbu_challenge_model_2026/model/param.m": "ef43ad6737def53c9d6b126c6ad03161764aac5b9555cc34a9a2fee87ffd3b19",
+    "nbu_challenge_model_2026/model/model.model": "b764d8306be7a2e44f1cc745c1a4603f3a74455a7e3ac84a66c0ffc4744e72d5"
+  }
+}

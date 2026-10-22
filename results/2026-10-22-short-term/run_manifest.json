@@ -1,0 +1,57 @@
+{
+  "as_of": "2026-10-22",
+  "target_months": [
+    "2026-11",
+    "2026-12",
+    "2027-01"
+  ],
+  "network_required": false,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0",
+    "matplotlib": "3.11.2"
+  },
+  "input_sha256": {
+    "data/inputs/core_monthly.csv": "30ecda574a8f06bb6b100814e3f1bb9fca771e53499b6343c8e681cd413cac28",
+    "data/inputs/policy_decisions.csv": "15ca4e7c7fd7f486670fa32ed3b05bb081e591b647fb0e5e8501e1e243c9673d",
+    "data/model/quarterly_levels.csv": "ee6245257bda0784bcbe195c632b5bbde0d6a4d4a6644e5e29da5b2fe42496bf",
+    "data/snapshots/2026-10-22/policy_archive.json": "3dc672b08432a651c16d14980c98da7dc0750dac03bdde569f4217f4b6daa742",
+    "models/arima.py": "84e1547ad96903799407f57860e5fb46ba928bf02b55c29d6c0ceb454974a6f5",
+    "models/common.py": "ec08ab5a81fba33ffdfc843f5064fa1d2152510abce4ded4b0418b9b9abc9600",
+    "models/make_short_term_report.py": "cc92b2837e9485c8aa89ae41e6051fef97e63c1666118121b18645c1b11d65bb",
+    "models/monthly_arima.py": "610cda74baf0a6627174dc63b55289194d37fd31f9bb4977be2643b448964d6b",
+    "models/monthly_common.py": "8478e926acd42b29cc148fab080b43d1ea5ac36a85e53f22ebf248c89e9f99d6",
+    "models/monthly_qpm.py": "34ba32a82e6ab79a60619f92fd1f46269d475375a3edbac4c2dc721a3a4d7b95",
+    "models/monthly_sarima.py": "0060e4360da88e1685abb5413178da5b7213f9c150902be237dc93c5e9f61b0a",
+    "models/monthly_var.py": "ef7fd08e1d30233f6129e31a28a34b98ac50cacc0fc2847fc1716c82b412d113",
+    "models/qpm.py": "b10b33ed4a114779c9ce05f0e471bc8807fa8c49b93862ff3ee9f900a5cdddb1",
+    "models/research_short_term.py": "fd8c4e9e0901f45b3546e8821aedfe424fe7d7a961703f3236f29254d6c7e14a",
+    "models/sarima.py": "17033ae02b90f053b1925723c1b198c70c564347c135341a20a2a84b923ad63b",
+    "models/var.py": "d1b78485715691f9ba35bf3054a1f81de4e98397a238daf7af6e1a5785a49d87",
+    "nbu_challenge_model_2026/model/model.model": "b764d8306be7a2e44f1cc745c1a4603f3a74455a7e3ac84a66c0ffc4744e72d5",
+    "nbu_challenge_model_2026/model/param.m": "ef43ad6737def53c9d6b126c6ad03161764aac5b9555cc34a9a2fee87ffd3b19",
+    "tools/build_research_evidence.py": "699e222166e096b89c78bf44ef66544b7214d748184b1a35c123c72c0d23e8ad",
+    "tools/run_research.py": "2559ba1d0786fd7400a1c8d412f657a9789d255c6fe3af31c5b2928f61885c2b"
+  },
+  "output_sha256": {
+    "reports/2026-10-22-research/RESEARCH_UA.md": "679138d740bb22608718b23d82fb73e30ab272e2647ebd9835c18d65b592f4c3",
+    "reports/2026-10-22-research/ensemble_weights.png": "c1f77f5a648d65dde09d89b43a2d3597b9816fc3164c84947af5dcc704dab7cb",
+    "reports/2026-10-22-research/forecast_three_months.png": "252e313e59430fa3053a02553be24eb18de00c5542777a242f6ac164e4c83a9a",
+    "reports/2026-10-22-research/monthly_audit.png": "4c642c5114fc3ef904636514cdb090bf959d3bca90ca4a0e042fe8427aec9891",
+    "reports/2026-10-22-research/policy_tradeoffs.png": "980e2d74998a7d1da318006121a949abf7ee19c219cc788f3288dddd19443045",
+    "reports/2026-10-22-research/report.html": "fa5cde3c101e9cd4a23f207cf4e366a276a6f3e76f034b3e782ff08620eebf71",
+    "results/2026-10-22-short-term/backtest.csv": "f19ab92d3f45c613c4c7fc72af01d2bc3ac701624f03ffd4e927ae59c5c76770",
+    "results/2026-10-22-short-term/base_cache_manifest.json": "39f5806dfb8849dc6e5dc563ab835c8823913b345a53e9385b63acd0d1f5dac9",
+    "results/2026-10-22-short-term/base_forecast_cache.csv": "e9f6c01f13edb9d01a9788bbf5745ee115e9beda5977dbe496e5bad2c224f649",
+    "results/2026-10-22-short-term/base_model_metadata.json": "3d544ce90254a7746b3b447c69e12e3fbfc1c2d3357596f6b250b478744bffb6",
+    "results/2026-10-22-short-term/calendar_scenarios.csv": "8cadf7f2edb02347c2f3c88429affaf8c6bdde2d7028affc730418da265994f3",
+    "results/2026-10-22-short-term/ensemble_weights.csv": "70b993b355a79792a86dc37a3f3257f3097c6a39c1055cb9d75e0bd4d9a2ee87",
+    "results/2026-10-22-short-term/forecast.csv": "683f3e02fd2e86897aa31a4179060c671940ce4d21e78112ad86f567ea1a1455",
+    "results/2026-10-22-short-term/metrics.csv": "3f9735d272d9d559151b8c0207316b7ef3d4a58155ebff23fde03261f61a5e61",
+    "results/2026-10-22-short-term/protocol.json": "7e1e66623e1805c8df40e3d2b071ffe7589d7f713fd9b8f75739c6f466e590da",
+    "results/2026-10-22-short-term/summary.json": "97dfff0afb942b53f91c9dd81bc49bdb502d1c3157ef036ebeea075ee85dc933"
+  }
+}

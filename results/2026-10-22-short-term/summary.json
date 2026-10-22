@@ -1,0 +1,47 @@
+{
+  "as_of": "2026-10-22",
+  "target_months": [
+    "2026-11",
+    "2026-12",
+    "2027-01"
+  ],
+  "selected_forecasts": [
+    {
+      "period": "2026-11",
+      "model": "NO_CHANGE",
+      "prediction": 16.0,
+      "lower80": 15.5,
+      "upper80": 16.5
+    },
+    {
+      "period": "2026-12",
+      "model": "NO_CHANGE",
+      "prediction": 16.0,
+      "lower80": 15.0,
+      "upper80": 17.0
+    },
+    {
+      "period": "2027-01",
+      "model": "NO_CHANGE",
+      "prediction": 16.0,
+      "lower80": 14.0,
+      "upper80": 18.0
+    }
+  ],
+  "ensemble_forecasts": [
+    {
+      "period": "2026-11",
+      "prediction": 16.014514413153407
+    },
+    {
+      "period": "2026-12",
+      "prediction": 16.035537538130306
+    },
+    {
+      "period": "2027-01",
+      "prediction": 16.013828715485356
+    }
+  ],
+  "working_policy_recommendation": 16.5,
+  "policy_status": "not team-approved; not a three-month commitment"
+}

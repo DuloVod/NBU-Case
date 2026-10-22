@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 from common import ROOT,write_json
 
 RESULT=ROOT/'results/2026-10-22-research'
-REPORT=ROOT/'reports/2026-10-22-research'
+REPORT=ROOT/'reports/2026-10-22-medium-term'
 LABELS={'cut_15_5':'Зниження до 15,5%','hold_16':'Збереження 16%',
         'hike_16_5':'Підвищення до 16,5%','endogenous_rule':'Правило QPM'}
 
@@ -77,7 +77,9 @@ def build():
     preferred=loss.loc[(loss.variant=='selected')&(loss.shock_case=='no_additional_shock')&
                        (loss.output_weight==1)&(loss.smoothing_weight==.1)&(loss.inflation_target_pct==5)&(loss.policy!='endogenous_rule')]
     public='https://bank.gov.ua/ua/news/all/'
-    text=f'''# Монетарне рішення команди УКУ: прогноз, сценарії та докази
+    text=f'''# Архів розширеного аналізу: поза поточним місячним дослідженням
+
+Цей матеріал збережений для відтворення попереднього підходу. Поточна ціль команди — листопад 2026, грудень 2026 і січень 2027; основний звіт — `reports/2026-10-22-research/RESEARCH_UA.md`.
 
 Інформаційна дата: **22 жовтня 2026 року**. Робоче дослідження для NBU University Challenge 2026; рекомендація потребує погодження команди перед поданням. Не використано рішення 29 жовтня та листопадовий Інфляційний звіт.
 
@@ -197,7 +199,7 @@ VAR має нижчий audit RMSE, але вищий MAE, ніж незмінн
         i+=1
     doc='<!doctype html><html lang="uk"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Дослідження УКУ — рішення НБУ</title><style>body{font:17px/1.65 system-ui,sans-serif;color:#202e35;max-width:1100px;margin:40px auto;padding:0 24px}h1{font-size:30px;line-height:1.25}h2{margin-top:40px;font-size:23px}a{color:#176b65}img{width:100%;height:auto;margin:22px 0}.scroll{overflow:auto}table{border-collapse:collapse;font-size:13px;width:100%}th,td{padding:8px;border-bottom:1px solid #d8dfe1;text-align:right;white-space:nowrap}th:first-child,td:first-child{text-align:left}thead{background:#edf3f2}.bullet{margin:8px 0}code{font-size:14px;background:#f0f2f2;padding:2px 5px}@media print{body{font-size:11px}h2{break-after:avoid}img{break-inside:avoid}}</style><body>'+''.join(body)+'</body></html>'
     (REPORT/'report.html').write_text(doc)
-    write_json(RESULT/'research_summary.json',dict(as_of='2026-10-22',
+    write_json(RESULT/'medium_term_summary.json',dict(as_of='2026-10-22',
                forecast_model=protocol['selected_model'],november_average_forecast=float(selected.prediction),
                forecast80=[float(selected.lower80),float(selected.upper80)],forecast95=[float(selected.lower95),float(selected.upper95)],
                working_policy_recommendation=16.5,policy_status='conditional research recommendation, not team-approved final submission',

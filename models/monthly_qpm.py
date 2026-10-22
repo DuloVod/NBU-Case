@@ -27,10 +27,13 @@ def disaggregate(quarter_means,quarter_covariance,last_month_rate,monthly_varian
     return mean,covariance,weights
 
 
-def forecast(data,as_of):
+def forecast(data,as_of,horizon=1):
+    if horizon not in (1,2,3):raise ValueError('Monthly horizon must be 1, 2 or 3')
     month=pd.Timestamp(as_of).to_period('M');current_q=month.asfreq('Q')
-    last_q=current_q-1;target=month+1
-    nq=target.asfreq('Q').ordinal-current_q.ordinal+1
+    last_q=current_q-1;target=month+horizon
+    # Fixed two-quarter bridge for all 1/2/3-month requests: a longer displayed
+    # horizon must not revise the earlier marginal forecast.
+    nq=max(2,target.asfreq('Q').ordinal-current_q.ordinal+1)
     frame=data.quarterly.frame(last_q,gdp_lag=1)
     model=QPM();quarter_forecast,metadata=model.fit_forecast(frame,nq)
     design=np.zeros(model.n);design[model.ix['ir_pol']]=1
@@ -50,11 +53,11 @@ def forecast(data,as_of):
     current=months.get_loc(month)
     mean,covariance=condition_gaussian(mean,covariance,[current,current],measurement['adjusted'],measurement['noise'])
     table=forecast_table(months,mean,covariance)
-    table=table.loc[table.period.isin([str(month),str(target)])].reset_index(drop=True)
-    table['status']=['current_month_nowcast','next_month_forecast']
+    table=table.loc[table.period.isin(pd.period_range(month,target,freq='M').astype(str))].reset_index(drop=True)
+    table['status']=['current_month_nowcast','next_month_forecast']+['future_month_forecast']*(horizon-1)
     metadata.update(frequency='M',structural_frequency='Q',model_label='QPM + monthly bridge',
                     as_of=str(pd.Timestamp(as_of).date()),target='calendar_day_average_policy_rate',
-                    next_month=str(target),quarterly_history_end=str(last_q),
+                    next_month=str(month+1),last_forecast_month=str(target),quarterly_history_end=str(last_q),
                     gdp_available_through=str(last_q-1),known_days=measurement['known_days'],
                     bridge='Gaussian random walk conditioned on uncertain QPM quarter-average prior',
                     monthly_innovation_variance=variance,quarter_prior=quarter_forecast.to_dict('records'),
