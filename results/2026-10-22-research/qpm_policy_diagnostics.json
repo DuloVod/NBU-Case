@@ -1,0 +1,915 @@
+{
+  "as_of": "2026-10-22",
+  "origin": "2026Q3",
+  "horizon_quarters": 12,
+  "gdp_available_through": "2026Q2",
+  "settings": {},
+  "solver": {
+    "iterations": 41,
+    "equation_residual": 5.237615896547254e-12,
+    "affine_residual": 1.7498003046512167e-11,
+    "spectral_radius": 1.0,
+    "stable_generalized_roots": 37,
+    "states": 37
+  },
+  "scenario_timing": "16% through Oct29; alternative from Oct30 through Dec31, then endogenous rule; hypothetical Q4 commitment",
+  "no_december_change": "assumption of experiment; not a prediction or recommendation to precommit at Dec17 meeting",
+  "shock_assumptions": {
+    "cost_pressure": "res_dl_cpi +2 annualized log percentage points in Q4 only",
+    "risk_premium": "res_prem_uip_gap +2 percentage points in Q4; then template persistence"
+  },
+  "inflation": "exact yoy change in seasonally adjusted quarterly-average price level; not monthly or Dec/Dec CPI",
+  "fx": "UAH/EUR quarterly-average model level; not UAH/USD or an optimal intervention target",
+  "terminal": "stable RE law after 12 quarters; quarterly inflation target template uses log-percent approximation 5",
+  "limitations": [
+    "fixed-form small model",
+    "predictive calibration is not structural identification",
+    "no explicit reserves, FX controls, core inflation or fiscal block",
+    "no probability estimates for shocks or parameter variants",
+    "loss weights are assumptions; no claim of welfare optimality"
+  ],
+  "experiments": [
+    {
+      "structural_residual": 3.668176873361517e-13,
+      "required_rule_shocks": {
+        "0": 0.19639104990339074
+      },
+      "variant": "selected",
+      "shock_case": "no_additional_shock",
+      "policy": "cut_15_5",
+      "decision_rate": 15.5,
+      "q4_average": 15.657608695652174
+    },
+    {
+      "structural_residual": 5.027089855502709e-13,
+      "required_rule_shocks": {
+        "0": 0.5800413609689149
+      },
+      "variant": "selected",
+      "shock_case": "no_additional_shock",
+      "policy": "hold_16",
+      "decision_rate": 16.0,
+      "q4_average": 16.0
+    },
+    {
+      "structural_residual": 4.547473508864641e-13,
+      "required_rule_shocks": {
+        "0": 0.963691672034438
+      },
+      "variant": "selected",
+      "shock_case": "no_additional_shock",
+      "policy": "hike_16_5",
+      "decision_rate": 16.5,
+      "q4_average": 16.342391304347824
+    },
+    {
+      "structural_residual": 3.410605131648481e-13,
+      "required_rule_shocks": {},
+      "variant": "selected",
+      "shock_case": "no_additional_shock",
+      "policy": "endogenous_rule",
+      "decision_rate": null,
+      "q4_average": null
+    },
+    {
+      "structural_residual": 6.821210263296962e-13,
+      "required_rule_shocks": {
+        "0": -0.07932411790065184
+      },
+      "variant": "selected",
+      "shock_case": "cost_pressure",
+      "policy": "cut_15_5",
+      "decision_rate": 15.5,
+      "q4_average": 15.657608695652174
+    },
+    {
+      "structural_residual": 3.410605131648481e-13,
+      "required_rule_shocks": {
+        "0": 0.3043261931648882
+      },
+      "variant": "selected",
+      "shock_case": "cost_pressure",
+      "policy": "hold_16",
+      "decision_rate": 16.0,
+      "q4_average": 16.0
+    },
+    {
+      "structural_residual": 4.547473508864641e-13,
+      "required_rule_shocks": {
+        "0": 0.6879765042304283
+      },
+      "variant": "selected",
+      "shock_case": "cost_pressure",
+      "policy": "hike_16_5",
+      "decision_rate": 16.5,
+      "q4_average": 16.342391304347824
+    },
+    {
+      "structural_residual": 3.979039320256561e-13,
+      "required_rule_shocks": {},
+      "variant": "selected",
+      "shock_case": "cost_pressure",
+      "policy": "endogenous_rule",
+      "decision_rate": null,
+      "q4_average": null
+    },
+    {
+      "structural_residual": 4.547473508864641e-13,
+      "required_rule_shocks": {
+        "0": 0.12952422437909422
+      },
+      "variant": "selected",
+      "shock_case": "risk_premium",
+      "policy": "cut_15_5",
+      "decision_rate": 15.5,
+      "q4_average": 15.657608695652174
+    },
+    {
+      "structural_residual": 4.547473508864641e-13,
+      "required_rule_shocks": {
+        "0": 0.5131745354446343
+      },
+      "variant": "selected",
+      "shock_case": "risk_premium",
+      "policy": "hold_16",
+      "decision_rate": 16.0,
+      "q4_average": 16.0
+    },
+    {
+      "structural_residual": 3.410605131648481e-13,
+      "required_rule_shocks": {
+        "0": 0.8968248465101744
+      },
+      "variant": "selected",
+      "shock_case": "risk_premium",
+      "policy": "hike_16_5",
+      "decision_rate": 16.5,
+      "q4_average": 16.342391304347824
+    },
+    {
+      "structural_residual": 3.410605131648481e-13,
+      "required_rule_shocks": {},
+      "variant": "selected",
+      "shock_case": "risk_premium",
+      "policy": "endogenous_rule",
+      "decision_rate": null,
+      "q4_average": null
+    },
+    {
+      "structural_residual": 3.388400671155978e-13,
+      "required_rule_shocks": {
+        "0": 0.1786846174978102
+      },
+      "variant": "validation_best",
+      "shock_case": "no_additional_shock",
+      "policy": "cut_15_5",
+      "decision_rate": 15.5,
+      "q4_average": 15.657608695652174
+    },
+    {
+      "structural_residual": 3.410605131648481e-13,
+      "required_rule_shocks": {
+        "0": 0.5720989289729399
+      },
+      "variant": "validation_best",
+      "shock_case": "no_additional_shock",
+      "policy": "hold_16",
+      "decision_rate": 16.0,
+      "q4_average": 16.0
+    },
+    {
+      "structural_residual": 2.7711166694643907e-13,
+      "required_rule_shocks": {
+        "0": 0.9655132404480694
+      },
+      "variant": "validation_best",
+      "shock_case": "no_additional_shock",
+      "policy": "hike_16_5",
+      "decision_rate": 16.5,
+      "q4_average": 16.342391304347824
+    },
+    {
+      "structural_residual": 3.410605131648481e-13,
+      "required_rule_shocks": {},
+      "variant": "validation_best",
+      "shock_case": "no_additional_shock",
+      "policy": "endogenous_rule",
+      "decision_rate": null,
+      "q4_average": null
+    },
+    {
+      "structural_residual": 3.410605131648481e-13,
+      "required_rule_shocks": {
+        "0": -0.7347619424128387
+      },
+      "variant": "validation_best",
+      "shock_case": "cost_pressure",
+      "policy": "cut_15_5",
+      "decision_rate": 15.5,
+      "q4_average": 15.657608695652174
+    },
+    {
+      "structural_residual": 3.517186542012496e-13,
+      "required_rule_shocks": {
+        "0": -0.3413476309377087
+      },
+      "variant": "validation_best",
+      "shock_case": "cost_pressure",
+      "policy": "hold_16",
+      "decision_rate": 16.0,
+      "q4_average": 16.0
+    },
+    {
+      "structural_residual": 4.547473508864641e-13,
+      "required_rule_shocks": {
+        "0": 0.052066680537412785
+      },
+      "variant": "validation_best",
+      "shock_case": "cost_pressure",
+      "policy": "hike_16_5",
+      "decision_rate": 16.5,
+      "q4_average": 16.342391304347824
+    },
+    {
+      "structural_residual": 3.410605131648481e-13,
+      "required_rule_shocks": {},
+      "variant": "validation_best",
+      "shock_case": "cost_pressure",
+      "policy": "endogenous_rule",
+      "decision_rate": null,
+      "q4_average": null
+    },
+    {
+      "structural_residual": 3.5127456499139953e-13,
+      "required_rule_shocks": {
+        "0": 0.09689366226940194
+      },
+      "variant": "validation_best",
+      "shock_case": "risk_premium",
+      "policy": "cut_15_5",
+      "decision_rate": 15.5,
+      "q4_average": 15.657608695652174
+    },
+    {
+      "structural_residual": 3.410605131648481e-13,
+      "required_rule_shocks": {
+        "0": 0.49030797374452345
+      },
+      "variant": "validation_best",
+      "shock_case": "risk_premium",
+      "policy": "hold_16",
+      "decision_rate": 16.0,
+      "q4_average": 16.0
+    },
+    {
+      "structural_residual": 4.547473508864641e-13,
+      "required_rule_shocks": {
+        "0": 0.8837222852196532
+      },
+      "variant": "validation_best",
+      "shock_case": "risk_premium",
+      "policy": "hike_16_5",
+      "decision_rate": 16.5,
+      "q4_average": 16.342391304347824
+    },
+    {
+      "structural_residual": 4.547473508864641e-13,
+      "required_rule_shocks": {},
+      "variant": "validation_best",
+      "shock_case": "risk_premium",
+      "policy": "endogenous_rule",
+      "decision_rate": null,
+      "q4_average": null
+    },
+    {
+      "structural_residual": 5.684341886080801e-13,
+      "required_rule_shocks": {
+        "0": 0.6695233368561483
+      },
+      "variant": "less_fx_smoothing",
+      "shock_case": "no_additional_shock",
+      "policy": "cut_15_5",
+      "decision_rate": 15.5,
+      "q4_average": 15.657608695652174
+    },
+    {
+      "structural_residual": 5.684341886080801e-13,
+      "required_rule_shocks": {
+        "0": 1.0757768684502793
+      },
+      "variant": "less_fx_smoothing",
+      "shock_case": "no_additional_shock",
+      "policy": "hold_16",
+      "decision_rate": 16.0,
+      "q4_average": 16.0
+    },
+    {
+      "structural_residual": 3.410605131648481e-13,
+      "required_rule_shocks": {
+        "0": 1.4820304000444184
+      },
+      "variant": "less_fx_smoothing",
+      "shock_case": "no_additional_shock",
+      "policy": "hike_16_5",
+      "decision_rate": 16.5,
+      "q4_average": 16.342391304347824
+    },
+    {
+      "structural_residual": 4.547473508864641e-13,
+      "required_rule_shocks": {},
+      "variant": "less_fx_smoothing",
+      "shock_case": "no_additional_shock",
+      "policy": "endogenous_rule",
+      "decision_rate": null,
+      "q4_average": null
+    },
+    {
+      "structural_residual": 4.547473508864641e-13,
+      "required_rule_shocks": {
+        "0": 0.349450700287414
+      },
+      "variant": "less_fx_smoothing",
+      "shock_case": "cost_pressure",
+      "policy": "cut_15_5",
+      "decision_rate": 15.5,
+      "q4_average": 15.657608695652174
+    },
+    {
+      "structural_residual": 4.547473508864641e-13,
+      "required_rule_shocks": {
+        "0": 0.7557042318815531
+      },
+      "variant": "less_fx_smoothing",
+      "shock_case": "cost_pressure",
+      "policy": "hold_16",
+      "decision_rate": 16.0,
+      "q4_average": 16.0
+    },
+    {
+      "structural_residual": 4.547473508864641e-13,
+      "required_rule_shocks": {
+        "0": 1.161957763475684
+      },
+      "variant": "less_fx_smoothing",
+      "shock_case": "cost_pressure",
+      "policy": "hike_16_5",
+      "decision_rate": 16.5,
+      "q4_average": 16.342391304347824
+    },
+    {
+      "structural_residual": 3.410605131648481e-13,
+      "required_rule_shocks": {},
+      "variant": "less_fx_smoothing",
+      "shock_case": "cost_pressure",
+      "policy": "endogenous_rule",
+      "decision_rate": null,
+      "q4_average": null
+    },
+    {
+      "structural_residual": 3.410605131648481e-13,
+      "required_rule_shocks": {
+        "0": 0.5131543312654532
+      },
+      "variant": "less_fx_smoothing",
+      "shock_case": "risk_premium",
+      "policy": "cut_15_5",
+      "decision_rate": 15.5,
+      "q4_average": 15.657608695652174
+    },
+    {
+      "structural_residual": 3.410605131648481e-13,
+      "required_rule_shocks": {
+        "0": 0.9194078628595926
+      },
+      "variant": "less_fx_smoothing",
+      "shock_case": "risk_premium",
+      "policy": "hold_16",
+      "decision_rate": 16.0,
+      "q4_average": 16.0
+    },
+    {
+      "structural_residual": 3.276268145668837e-13,
+      "required_rule_shocks": {
+        "0": 1.325661394453732
+      },
+      "variant": "less_fx_smoothing",
+      "shock_case": "risk_premium",
+      "policy": "hike_16_5",
+      "decision_rate": 16.5,
+      "q4_average": 16.342391304347824
+    },
+    {
+      "structural_residual": 2.3236967905404526e-13,
+      "required_rule_shocks": {},
+      "variant": "less_fx_smoothing",
+      "shock_case": "risk_premium",
+      "policy": "endogenous_rule",
+      "decision_rate": null,
+      "q4_average": null
+    },
+    {
+      "structural_residual": 4.547473508864641e-13,
+      "required_rule_shocks": {
+        "0": 0.6612336343066468
+      },
+      "variant": "more_fx_smoothing",
+      "shock_case": "no_additional_shock",
+      "policy": "cut_15_5",
+      "decision_rate": 15.5,
+      "q4_average": 15.657608695652174
+    },
+    {
+      "structural_residual": 4.547473508864641e-13,
+      "required_rule_shocks": {
+        "0": 1.0265204738220441
+      },
+      "variant": "more_fx_smoothing",
+      "shock_case": "no_additional_shock",
+      "policy": "hold_16",
+      "decision_rate": 16.0,
+      "q4_average": 16.0
+    },
+    {
+      "structural_residual": 4.547473508864641e-13,
+      "required_rule_shocks": {
+        "0": 1.3918073133374567
+      },
+      "variant": "more_fx_smoothing",
+      "shock_case": "no_additional_shock",
+      "policy": "hike_16_5",
+      "decision_rate": 16.5,
+      "q4_average": 16.342391304347824
+    },
+    {
+      "structural_residual": 4.547473508864641e-13,
+      "required_rule_shocks": {},
+      "variant": "more_fx_smoothing",
+      "shock_case": "no_additional_shock",
+      "policy": "endogenous_rule",
+      "decision_rate": null,
+      "q4_average": null
+    },
+    {
+      "structural_residual": 4.547473508864641e-13,
+      "required_rule_shocks": {
+        "0": 0.39685002685240434
+      },
+      "variant": "more_fx_smoothing",
+      "shock_case": "cost_pressure",
+      "policy": "cut_15_5",
+      "decision_rate": 15.5,
+      "q4_average": 15.657608695652174
+    },
+    {
+      "structural_residual": 4.547473508864641e-13,
+      "required_rule_shocks": {
+        "0": 0.7621368663678167
+      },
+      "variant": "more_fx_smoothing",
+      "shock_case": "cost_pressure",
+      "policy": "hold_16",
+      "decision_rate": 16.0,
+      "q4_average": 16.0
+    },
+    {
+      "structural_residual": 3.410605131648481e-13,
+      "required_rule_shocks": {
+        "0": 1.1274237058832137
+      },
+      "variant": "more_fx_smoothing",
+      "shock_case": "cost_pressure",
+      "policy": "hike_16_5",
+      "decision_rate": 16.5,
+      "q4_average": 16.342391304347824
+    },
+    {
+      "structural_residual": 4.547473508864641e-13,
+      "required_rule_shocks": {},
+      "variant": "more_fx_smoothing",
+      "shock_case": "cost_pressure",
+      "policy": "endogenous_rule",
+      "decision_rate": null,
+      "q4_average": null
+    },
+    {
+      "structural_residual": 4.547473508864641e-13,
+      "required_rule_shocks": {
+        "0": 0.680809831388404
+      },
+      "variant": "more_fx_smoothing",
+      "shock_case": "risk_premium",
+      "policy": "cut_15_5",
+      "decision_rate": 15.5,
+      "q4_average": 15.657608695652174
+    },
+    {
+      "structural_residual": 4.547473508864641e-13,
+      "required_rule_shocks": {
+        "0": 1.0460966709038164
+      },
+      "variant": "more_fx_smoothing",
+      "shock_case": "risk_premium",
+      "policy": "hold_16",
+      "decision_rate": 16.0,
+      "q4_average": 16.0
+    },
+    {
+      "structural_residual": 5.684341886080801e-13,
+      "required_rule_shocks": {
+        "0": 1.4113835104192287
+      },
+      "variant": "more_fx_smoothing",
+      "shock_case": "risk_premium",
+      "policy": "hike_16_5",
+      "decision_rate": 16.5,
+      "q4_average": 16.342391304347824
+    },
+    {
+      "structural_residual": 3.836930773104541e-13,
+      "required_rule_shocks": {},
+      "variant": "more_fx_smoothing",
+      "shock_case": "risk_premium",
+      "policy": "endogenous_rule",
+      "decision_rate": null,
+      "q4_average": null
+    },
+    {
+      "structural_residual": 3.814726312612038e-13,
+      "required_rule_shocks": {
+        "0": -0.31246123426383804
+      },
+      "variant": "higher_risk_trend",
+      "shock_case": "no_additional_shock",
+      "policy": "cut_15_5",
+      "decision_rate": 15.5,
+      "q4_average": 15.657608695652174
+    },
+    {
+      "structural_residual": 3.410605131648481e-13,
+      "required_rule_shocks": {
+        "0": 0.07118907680171792
+      },
+      "variant": "higher_risk_trend",
+      "shock_case": "no_additional_shock",
+      "policy": "hold_16",
+      "decision_rate": 16.0,
+      "q4_average": 16.0
+    },
+    {
+      "structural_residual": 3.410605131648481e-13,
+      "required_rule_shocks": {
+        "0": 0.45483938786724204
+      },
+      "variant": "higher_risk_trend",
+      "shock_case": "no_additional_shock",
+      "policy": "hike_16_5",
+      "decision_rate": 16.5,
+      "q4_average": 16.342391304347824
+    },
+    {
+      "structural_residual": 4.547473508864641e-13,
+      "required_rule_shocks": {},
+      "variant": "higher_risk_trend",
+      "shock_case": "no_additional_shock",
+      "policy": "endogenous_rule",
+      "decision_rate": null,
+      "q4_average": null
+    },
+    {
+      "structural_residual": 3.410605131648481e-13,
+      "required_rule_shocks": {
+        "0": -0.58817640206774
+      },
+      "variant": "higher_risk_trend",
+      "shock_case": "cost_pressure",
+      "policy": "cut_15_5",
+      "decision_rate": 15.5,
+      "q4_average": 15.657608695652174
+    },
+    {
+      "structural_residual": 3.9035441545820504e-13,
+      "required_rule_shocks": {
+        "0": -0.20452609100220004
+      },
+      "variant": "higher_risk_trend",
+      "shock_case": "cost_pressure",
+      "policy": "hold_16",
+      "decision_rate": 16.0,
+      "q4_average": 16.0
+    },
+    {
+      "structural_residual": 3.410605131648481e-13,
+      "required_rule_shocks": {
+        "0": 0.17912422006334003
+      },
+      "variant": "higher_risk_trend",
+      "shock_case": "cost_pressure",
+      "policy": "hike_16_5",
+      "decision_rate": 16.5,
+      "q4_average": 16.342391304347824
+    },
+    {
+      "structural_residual": 4.547473508864641e-13,
+      "required_rule_shocks": {},
+      "variant": "higher_risk_trend",
+      "shock_case": "cost_pressure",
+      "policy": "endogenous_rule",
+      "decision_rate": null,
+      "q4_average": null
+    },
+    {
+      "structural_residual": 3.410605131648481e-13,
+      "required_rule_shocks": {
+        "0": -0.37932805978807077
+      },
+      "variant": "higher_risk_trend",
+      "shock_case": "risk_premium",
+      "policy": "cut_15_5",
+      "decision_rate": 15.5,
+      "q4_average": 15.657608695652174
+    },
+    {
+      "structural_residual": 5.684341886080801e-13,
+      "required_rule_shocks": {
+        "0": 0.004322251277453307
+      },
+      "variant": "higher_risk_trend",
+      "shock_case": "risk_premium",
+      "policy": "hold_16",
+      "decision_rate": 16.0,
+      "q4_average": 16.0
+    },
+    {
+      "structural_residual": 3.410605131648481e-13,
+      "required_rule_shocks": {
+        "0": 0.38797256234299343
+      },
+      "variant": "higher_risk_trend",
+      "shock_case": "risk_premium",
+      "policy": "hike_16_5",
+      "decision_rate": 16.5,
+      "q4_average": 16.342391304347824
+    },
+    {
+      "structural_residual": 4.547473508864641e-13,
+      "required_rule_shocks": {},
+      "variant": "higher_risk_trend",
+      "shock_case": "risk_premium",
+      "policy": "endogenous_rule",
+      "decision_rate": null,
+      "q4_average": null
+    },
+    {
+      "structural_residual": 2.7355895326763857e-13,
+      "required_rule_shocks": {
+        "0": -0.821313518431088
+      },
+      "variant": "higher_real_trend",
+      "shock_case": "no_additional_shock",
+      "policy": "cut_15_5",
+      "decision_rate": 15.5,
+      "q4_average": 15.657608695652174
+    },
+    {
+      "structural_residual": 3.410605131648481e-13,
+      "required_rule_shocks": {
+        "0": -0.4376632073655639
+      },
+      "variant": "higher_real_trend",
+      "shock_case": "no_additional_shock",
+      "policy": "hold_16",
+      "decision_rate": 16.0,
+      "q4_average": 16.0
+    },
+    {
+      "structural_residual": 2.3647750424515834e-13,
+      "required_rule_shocks": {
+        "0": -0.05401289630002383
+      },
+      "variant": "higher_real_trend",
+      "shock_case": "no_additional_shock",
+      "policy": "hike_16_5",
+      "decision_rate": 16.5,
+      "q4_average": 16.342391304347824
+    },
+    {
+      "structural_residual": 2.948752353404416e-13,
+      "required_rule_shocks": {},
+      "variant": "higher_real_trend",
+      "shock_case": "no_additional_shock",
+      "policy": "endogenous_rule",
+      "decision_rate": null,
+      "q4_average": null
+    },
+    {
+      "structural_residual": 2.438049762076844e-13,
+      "required_rule_shocks": {
+        "0": -1.097028686234993
+      },
+      "variant": "higher_real_trend",
+      "shock_case": "cost_pressure",
+      "policy": "cut_15_5",
+      "decision_rate": 15.5,
+      "q4_average": 15.657608695652174
+    },
+    {
+      "structural_residual": 3.410605131648481e-13,
+      "required_rule_shocks": {
+        "0": -0.7133783751694689
+      },
+      "variant": "higher_real_trend",
+      "shock_case": "cost_pressure",
+      "policy": "hold_16",
+      "decision_rate": 16.0,
+      "q4_average": 16.0
+    },
+    {
+      "structural_residual": 2.2737367544323206e-13,
+      "required_rule_shocks": {
+        "0": -0.32972806410394473
+      },
+      "variant": "higher_real_trend",
+      "shock_case": "cost_pressure",
+      "policy": "hike_16_5",
+      "decision_rate": 16.5,
+      "q4_average": 16.342391304347824
+    },
+    {
+      "structural_residual": 2.2737367544323206e-13,
+      "required_rule_shocks": {},
+      "variant": "higher_real_trend",
+      "shock_case": "cost_pressure",
+      "policy": "endogenous_rule",
+      "decision_rate": null,
+      "q4_average": null
+    },
+    {
+      "structural_residual": 4.547473508864641e-13,
+      "required_rule_shocks": {
+        "0": -0.8881803439554299
+      },
+      "variant": "higher_real_trend",
+      "shock_case": "risk_premium",
+      "policy": "cut_15_5",
+      "decision_rate": 15.5,
+      "q4_average": 15.657608695652174
+    },
+    {
+      "structural_residual": 4.547473508864641e-13,
+      "required_rule_shocks": {
+        "0": -0.5045300328899058
+      },
+      "variant": "higher_real_trend",
+      "shock_case": "risk_premium",
+      "policy": "hold_16",
+      "decision_rate": 16.0,
+      "q4_average": 16.0
+    },
+    {
+      "structural_residual": 3.410605131648481e-13,
+      "required_rule_shocks": {
+        "0": -0.12087972182434982
+      },
+      "variant": "higher_real_trend",
+      "shock_case": "risk_premium",
+      "policy": "hike_16_5",
+      "decision_rate": 16.5,
+      "q4_average": 16.342391304347824
+    },
+    {
+      "structural_residual": 2.8421709430404007e-13,
+      "required_rule_shocks": {},
+      "variant": "higher_real_trend",
+      "shock_case": "risk_premium",
+      "policy": "endogenous_rule",
+      "decision_rate": null,
+      "q4_average": null
+    },
+    {
+      "structural_residual": 3.6504133049675147e-13,
+      "required_rule_shocks": {
+        "0": 0.19573326292189333
+      },
+      "variant": "exact_price_targets",
+      "shock_case": "no_additional_shock",
+      "policy": "cut_15_5",
+      "decision_rate": 15.5,
+      "q4_average": 15.657608695652174
+    },
+    {
+      "structural_residual": 3.863576125695545e-13,
+      "required_rule_shocks": {
+        "0": 0.5793835739874175
+      },
+      "variant": "exact_price_targets",
+      "shock_case": "no_additional_shock",
+      "policy": "hold_16",
+      "decision_rate": 16.0,
+      "q4_average": 16.0
+    },
+    {
+      "structural_residual": 3.410605131648481e-13,
+      "required_rule_shocks": {
+        "0": 0.9630338850529585
+      },
+      "variant": "exact_price_targets",
+      "shock_case": "no_additional_shock",
+      "policy": "hike_16_5",
+      "decision_rate": 16.5,
+      "q4_average": 16.342391304347824
+    },
+    {
+      "structural_residual": 3.410605131648481e-13,
+      "required_rule_shocks": {},
+      "variant": "exact_price_targets",
+      "shock_case": "no_additional_shock",
+      "policy": "endogenous_rule",
+      "decision_rate": null,
+      "q4_average": null
+    },
+    {
+      "structural_residual": 4.547473508864641e-13,
+      "required_rule_shocks": {
+        "0": -0.07998190488199874
+      },
+      "variant": "exact_price_targets",
+      "shock_case": "cost_pressure",
+      "policy": "cut_15_5",
+      "decision_rate": 15.5,
+      "q4_average": 15.657608695652174
+    },
+    {
+      "structural_residual": 4.547473508864641e-13,
+      "required_rule_shocks": {
+        "0": 0.30366840618354135
+      },
+      "variant": "exact_price_targets",
+      "shock_case": "cost_pressure",
+      "policy": "hold_16",
+      "decision_rate": 16.0,
+      "q4_average": 16.0
+    },
+    {
+      "structural_residual": 5.120348589571222e-13,
+      "required_rule_shocks": {
+        "0": 0.6873187172490813
+      },
+      "variant": "exact_price_targets",
+      "shock_case": "cost_pressure",
+      "policy": "hike_16_5",
+      "decision_rate": 16.5,
+      "q4_average": 16.342391304347824
+    },
+    {
+      "structural_residual": 3.410605131648481e-13,
+      "required_rule_shocks": {},
+      "variant": "exact_price_targets",
+      "shock_case": "cost_pressure",
+      "policy": "endogenous_rule",
+      "decision_rate": null,
+      "q4_average": null
+    },
+    {
+      "structural_residual": 4.583000645652646e-13,
+      "required_rule_shocks": {
+        "0": 0.12886643739761858
+      },
+      "variant": "exact_price_targets",
+      "shock_case": "risk_premium",
+      "policy": "cut_15_5",
+      "decision_rate": 15.5,
+      "q4_average": 15.657608695652174
+    },
+    {
+      "structural_residual": 3.5793590313915047e-13,
+      "required_rule_shocks": {
+        "0": 0.5125167484631586
+      },
+      "variant": "exact_price_targets",
+      "shock_case": "risk_premium",
+      "policy": "hold_16",
+      "decision_rate": 16.0,
+      "q4_average": 16.0
+    },
+    {
+      "structural_residual": 3.410605131648481e-13,
+      "required_rule_shocks": {
+        "0": 0.8961670595286828
+      },
+      "variant": "exact_price_targets",
+      "shock_case": "risk_premium",
+      "policy": "hike_16_5",
+      "decision_rate": 16.5,
+      "q4_average": 16.342391304347824
+    },
+    {
+      "structural_residual": 3.410605131648481e-13,
+      "required_rule_shocks": {},
+      "variant": "exact_price_targets",
+      "shock_case": "risk_premium",
+      "policy": "endogenous_rule",
+      "decision_rate": null,
+      "q4_average": null
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "as_of": "2026-10-22",
+  "rows": 7754,
+  "variables": 62,
+  "publication_date_known_rows": 27,
+  "note": "Unknown publication dates deliberately remain empty; this evidence table does not certify real-time availability of historical workbook vintages.",
+  "inputs_sha256": {
+    "data/documentation/auxiliary_provenance.csv": "065386cfa6d8fdf583b4abff3b01ad6cfc7d0282279ea1ee803a81636a412ed8",
+    "data/documentation/sources.csv": "d04bc3f92222ba4492eaf4d0af14d37877b4c36c6fb964e03ce9e9e4132df93b",
+    "data/inputs/business_quarterly_latest.csv": "4c9e0527d5b2aece4e74d6f9370679878dab11f6f5c3f1e3bf2adc96037dd594",
+    "data/inputs/business_survey_detail.csv": "ef2838efd5dc4ce2a8657da34f49d5a2ecb1f26cd93c10252e9b9191f1f81cd3",
+    "data/inputs/observations_long.csv": "4a5a56a8e122b7c0496022f12fa036e59bb8f76040f10e63760ee7b60764e6ab",
+    "data/inputs/surveys_monthly.csv": "fd90bfe3d0dc2d682bc06b4478252285d2f8e564ce0a6a734e1aad8cacfadd62",
+    "data/research/2026-10-22/snapshots/monthly-business-september.html": "32a866f845e98921343b659213a67bb0bc0bac5578ff8d45a36ee45541e18f6a",
+    "data/research/2026-10-22/snapshots/reserves-september.html": "e546e90509c01a8b6c40bdfd01c4d8107580a31f03487b6471cd491ac83e1269",
+    "data/research/2026-10-22/snapshots/sector-external.html": "364e527b00eaf99d7bb6e5543af2b092ae35d8e6ffd5c30892cad558cf68e3e4"
+  }
+}

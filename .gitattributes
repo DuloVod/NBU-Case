@@ -1,6 +1,7 @@
 # Preserve the exact bytes of downloaded and tabular research inputs.
 *.csv -text
 data/raw/** -text -diff -whitespace
+data/research/**/snapshots/** -text -diff -whitespace
 data/inputs/** -text -whitespace
 data/model/** -text -whitespace
 data/csv_for_excel/** -text -whitespace

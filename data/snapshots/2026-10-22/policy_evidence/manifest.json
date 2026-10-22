@@ -1,0 +1,47 @@
+[
+  {
+    "id": "rate_2026_09_17",
+    "url": "https://bank.gov.ua/ua/news/all/natsionalniy-bank-ukrayini-pidvischiv-oblikovu-stavku-do-16",
+    "as_of": "2026-10-22",
+    "retrieved_at": "2026-10-22",
+    "path": "rate_2026_09_17.txt",
+    "sha256": "7ce39d4a7a80cd07bc9c137d97ec4a93218859973a1836c6da993a4ee058ee3f",
+    "note": "HTML main text; related news may follow article; article dates checked no later than as_of."
+  },
+  {
+    "id": "inflation_2026_09",
+    "url": "https://bank.gov.ua/ua/news/all/komentar-natsionalnogo-banku-schodo-rivnya-inflyatsiyi-u-veresni-2026-roku",
+    "as_of": "2026-10-22",
+    "retrieved_at": "2026-10-22",
+    "path": "inflation_2026_09.txt",
+    "sha256": "dc7a54ab4507ba2679e01a1c33a876c69b69a464c2ea9e41837c2b3faaceb056",
+    "note": "HTML main text; related news may follow article; article dates checked no later than as_of."
+  },
+  {
+    "id": "mpc_2026_09_16",
+    "url": "https://bank.gov.ua/ua/news/all/pidsumki-diskusiyi-chleniv-komitetu-z-monetarnoyi-politiki-natsionalnogo-banku-schodo-rivnya-oblikovoyi-stavki-16-veresnya-2026-roku",
+    "as_of": "2026-10-22",
+    "retrieved_at": "2026-10-22",
+    "path": "mpc_2026_09_16.txt",
+    "sha256": "1dca5382969fa2c245adf2a477d42af48548934489a87e0d975633e8b16bc7c3",
+    "note": "HTML main text; related news may follow article; article dates checked no later than as_of."
+  },
+  {
+    "id": "operational_design_2026_07_30",
+    "url": "https://bank.gov.ua/ua/news/all/nbu-rozpochinaye-modernizatsiyu-operatsiynogo-dizaynu-protsentnoyi-politiki",
+    "as_of": "2026-10-22",
+    "retrieved_at": "2026-10-22",
+    "path": "operational_design_2026_07_30.txt",
+    "sha256": "b0d71ab679f60db6c1430a6ea19e15e7c45a6ad32c41ea0793753aa7f4ef4f3c",
+    "note": "HTML main text; related news may follow article; article dates checked no later than as_of."
+  },
+  {
+    "id": "operational_design_2026_10_01",
+    "url": "https://bank.gov.ua/ua/news/all/nbu-informuye-pro-golovniy-printsip-viznachennya-obsyagiv-rozmischennya-trimisyachnih-depozitnih-sertifikativ",
+    "as_of": "2026-10-22",
+    "retrieved_at": "2026-10-22",
+    "path": "operational_design_2026_10_01.txt",
+    "sha256": "91d807af58fd88c0661183ec0207bee9e1c82985cbdd8e90b582e8c8b250183c",
+    "note": "HTML main text; related news may follow article; article dates checked no later than as_of."
+  }
+]

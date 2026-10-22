@@ -21,3 +21,7 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Rebuild numerical data from saved originals
         run: python tools/rebuild_data.py --check
+      - name: Reproduce policy research offline and verify saved results
+        run: |
+          python tools/run_research.py
+          python tools/verify_research.py

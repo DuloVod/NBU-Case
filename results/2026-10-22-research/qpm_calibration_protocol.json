@@ -1,0 +1,39 @@
+{
+  "as_of": "2026-10-22",
+  "development_origins": [
+    "2015Q4",
+    "2019Q4"
+  ],
+  "validation_origins": [
+    "2020Q1",
+    "2022Q4"
+  ],
+  "audit_origins": [
+    "2023Q1",
+    "2026Q2"
+  ],
+  "candidate_count": 109,
+  "objective": "equal-weight standardized Huber loss across four one-quarter predictions",
+  "scales_from_development": {
+    "rate_pp": 2.2944081640115424,
+    "inflation_log_pp": 1.7173214810491024,
+    "fx_log_percent": 4.381419261072193,
+    "gdp_log_percent": 3.865509983958482
+  },
+  "default_score": 1.7384306044154592,
+  "best_validation_score": 1.668460654909689,
+  "selected_candidate": 0,
+  "selected_settings": {},
+  "best_validation_settings": {
+    "beta": 0.7,
+    "coef": 1.0,
+    "policy_inertia": 0.6,
+    "inflation_memory": 0.6,
+    "std_res_dl_cpi_c": 1.0
+  },
+  "validation_improvement_fraction": 0.0402489172291679,
+  "selection": "5% validation improvement required; otherwise retain template; never select on audit",
+  "structural_estimation": "bounded predictive calibration, not causal identification or full Bayesian estimation",
+  "information": "quarter end +21d proxy; both GDP series lagged one quarter; current revised vintages",
+  "caveat": "historical outcomes already inspected; chronological audit is not pristine holdout"
+}

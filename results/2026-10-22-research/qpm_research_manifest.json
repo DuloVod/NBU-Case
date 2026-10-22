@@ -1,0 +1,16 @@
+{
+  "as_of": "2026-10-22",
+  "selected_settings": {},
+  "sha256": {
+    "models/research_qpm.py": "04980d6bf9e238b70c77ba8e4e175444aded5ec22383697c746fb1ba2eb42b81",
+    "models/qpm.py": "b10b33ed4a114779c9ce05f0e471bc8807fa8c49b93862ff3ee9f900a5cdddb1",
+    "models/common.py": "ec08ab5a81fba33ffdfc843f5064fa1d2152510abce4ded4b0418b9b9abc9600",
+    "data/inputs/core_monthly.csv": "30ecda574a8f06bb6b100814e3f1bb9fca771e53499b6343c8e681cd413cac28",
+    "data/model/quarterly_levels.csv": "ee6245257bda0784bcbe195c632b5bbde0d6a4d4a6644e5e29da5b2fe42496bf",
+    "nbu_challenge_model_2026/model/param.m": "ef43ad6737def53c9d6b126c6ad03161764aac5b9555cc34a9a2fee87ffd3b19",
+    "nbu_challenge_model_2026/model/model.model": "b764d8306be7a2e44f1cc745c1a4603f3a74455a7e3ac84a66c0ffc4744e72d5"
+  },
+  "numpy": "2.5.4",
+  "pandas": "3.0.6",
+  "original_data_unchanged": true
+}

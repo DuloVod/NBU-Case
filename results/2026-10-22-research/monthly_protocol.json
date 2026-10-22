@@ -1,0 +1,51 @@
+{
+  "as_of": "2026-10-22",
+  "target": "November 2026 calendar-day average policy rate, percent per annum",
+  "selected_model": "NO_CHANGE",
+  "selection": "Minimum validation MAE; ties broken by RMSE then model name. Selection frozen before inspecting test metrics.",
+  "validation": "2019-02 to 2024-09 (68 targets)",
+  "test": "2024-10 to 2026-09 (24 targets)",
+  "test_is_preregistered": false,
+  "research_warning": "This split/protocol was declared before this research run, but earlier project results already included these dates. This is a chronological audit holdout, not a pristine never-seen external test. No test-based tuning is performed here.",
+  "labels": "Only target months strictly before the partial current month may train models or calibrate intervals/online weights.",
+  "candidates": [
+    "NO_CHANGE",
+    "DRIFT_6",
+    "DRIFT_12",
+    "ridge_policy_10",
+    "ridge_macro_100",
+    "ridge_policy_100_60m",
+    "ARIMA",
+    "SARIMA",
+    "VAR",
+    "QPM_BRIDGE",
+    "ONLINE_ARIMA_SHRINK",
+    "ONLINE_BLEND_SHRINK"
+  ],
+  "ridge_penalty": "10 or 100 fixed; standardized features; penalized intercept; 24 minimum labels; expanding or latest60 labels",
+  "features": [
+    "spot-minus-prior-month-average",
+    "latest3 completed monthly rate changes",
+    "current spot",
+    "prior-month CPI year-on-year log change",
+    "prior3-month FX log change",
+    "ECB prior-month level and3-month change"
+  ],
+  "macro_availability": "Previous calendar month assumed available on day22. Current-vintage macro data, not archived publication vintages.",
+  "online": "At most0.5 weight on alternative vs nochange; weights from latest36 resolved labels; minimum12; ridge1 penalty on weight denominator.",
+  "intervals": "Symmetric absolute-error finite-sample quantiles from expanding resolved residuals only. Marginal descriptive coverage, not regime-conditional guarantee.",
+  "baseline": "Effective rate on day22, held constant throughout nextmonth",
+  "limitation": "Discrete meeting schedule and surprise decisions are not modeled; rate history source may contain retrospective corrections; war breaks invalidate exchangeability.",
+  "seed": 20261022,
+  "python": "3.12.14",
+  "numpy": "2.5.4",
+  "pandas": "3.0.6",
+  "hashes": {
+    "models/research_monthly.py": "20a08faa6db5a651917d3210222e9278e9debca4f305b396a14aaa19eee3aa1c",
+    "data/snapshots/2026-10-22/policy_archive.json": "3dc672b08432a651c16d14980c98da7dc0750dac03bdde569f4217f4b6daa742",
+    "data/inputs/core_monthly.csv": "30ecda574a8f06bb6b100814e3f1bb9fca771e53499b6343c8e681cd413cac28",
+    "data/inputs/policy_decisions.csv": "15ca4e7c7fd7f486670fa32ed3b05bb081e591b647fb0e5e8501e1e243c9673d",
+    "results/2026-10-22-monthly/backtest_predictions.csv": "dbd500184369d83cb0053630bd0fc54f3ae8c9fb038a807414ab459ed545a3ed",
+    "results/2026-10-22-monthly/next_month_forecast.csv": "64f148b6ec9711b33eb4bd9203c79d08d9f348c198642e6c220e32b68074f12d"
+  }
+}
