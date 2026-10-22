@@ -33,13 +33,16 @@ def main():
         np.testing.assert_allclose(w.sum(),1,atol=1e-12)
         f=forecasts.loc[forecasts.horizon==h].set_index('model').prediction
         np.testing.assert_allclose(float((w*f.reindex(w.index)).sum()),f.ENSEMBLE,atol=1e-10)
-    daily=pd.read_csv(ROOT/'results/2026-10-22-monthly/policy_daily_as_of.csv',parse_dates=['date'])
-    means=daily.groupby(daily.date.dt.to_period('M')).rate.mean()
+    import sys
+    sys.path.insert(0,str(ROOT/'models'))
+    from monthly_common import MonthlyData
+    daily=MonthlyData().daily
+    means=daily.groupby(daily.index.to_period('M')).mean()
     np.testing.assert_allclose(past.actual,[means.loc[pd.Period(p,'M')] for p in past.period],atol=1e-10)
     for file,key in [('base_cache_manifest.json','input_sha256'),('run_manifest.json','input_sha256'),('run_manifest.json','output_sha256')]:
         for relative,digest in json.loads((OUT/file).read_text())[key].items():
             assert hashlib.sha256((ROOT/relative).read_bytes()).hexdigest()==digest,relative
-    report=(ROOT/'reports/2026-10-22-research/RESEARCH_UA.md').read_text()
+    report=(ROOT/'reports/final/RESEARCH_UA.md').read_text()
     assert '2028' not in report and '2029' not in report,'Long-horizon material leaked into primary report'
     print('Three-month audit PASSED: 18 current forecasts, 1638 historical forecasts, horizon-specific weights, metrics, dates, source hashes.')
 

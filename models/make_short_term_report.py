@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 from common import ROOT,write_json
 
 RESULT=ROOT/'results/2026-10-22-short-term'
-REPORT=ROOT/'reports/2026-10-22-research'
+REPORT=ROOT/'reports/final'
 MONTHS=['2026-11','2026-12','2027-01']
 LABELS=['Листопад 2026','Грудень 2026','Січень 2027']
 NAMES={'NO_CHANGE':'Незмінна ставка','ARIMA':'ARIMA','SARIMA':'SARIMA','VAR':'VAR',
