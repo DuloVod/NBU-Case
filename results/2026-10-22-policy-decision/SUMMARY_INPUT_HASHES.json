@@ -1,0 +1,10 @@
+{
+  "nowcast/cpi_forecast.csv": "524f5b9bd9630eb3cbb08c504f075f1f2cc44bb161ecaea421ad0b1cf44c8031",
+  "nowcast/cpi_metrics.csv": "82ac4587ef4e87a65af51a9e5e873c3e7f81379054b8f7a1d34e54782fadda05",
+  "decision/policy_paths.csv": "f5260c426ace9f33784dc3116e760232889ee7f3f1efeade8fa3fce75f3ff091",
+  "decision/policy_losses.csv": "60ff61fffb8d9d2092ca9e80ea46a6a24037d29eee39fcd071059e119e8b4892",
+  "decision/conditional_winners.csv": "1837ea83bf71518a054fcc21c5853932454356e5d2526fe1f78e79796afe59dc",
+  "decision/initial_state_sensitivity.csv": "4f51cfcd28864556772d147d28e955fd4395dc34435f723299a75398bd881688",
+  "decision/judgment_diagnostics.csv": "0d8463954906502c3e14a1632ba188260593279088dd9b8c6bcf63336df72e27",
+  "decision/protocol.json": "d7d57fe4a7921ce617e8f448c7dcefd9b7eb39b39c10d1442f57e65ce7ab684f"
+}

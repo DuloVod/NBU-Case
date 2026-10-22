@@ -1,0 +1,74 @@
+{
+  "as_of": "2026-10-22",
+  "training_end": "2026-09",
+  "target": "headline CPI, NSA monthly and year-on-year, percent",
+  "requested_months": [
+    "2026-11",
+    "2026-12",
+    "2027-01"
+  ],
+  "bridge_month": "2026-10",
+  "selected_models": {
+    "1": "VAR",
+    "2": "VAR",
+    "3": "VAR",
+    "4": "VAR"
+  },
+  "methods": {
+    "SEASONAL_NAIVE": {
+      "method": "last completed 12 months repeated"
+    },
+    "ARIMA": {
+      "order": [
+        2,
+        0,
+        0
+      ],
+      "aicc": 638.7330399947496
+    },
+    "SARIMA": {
+      "order": [
+        1,
+        0,
+        0
+      ],
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        12
+      ],
+      "aicc": 604.5908107244286
+    },
+    "VAR": {
+      "lags": 1,
+      "columns": [
+        "inflation",
+        "core_inflation",
+        "fx_change",
+        "brent_change"
+      ],
+      "bic": 6.153366293699902,
+      "training_start": "2010-01",
+      "training_n": 201
+    },
+    "VAR_POLICY": {
+      "lags": 1,
+      "columns": [
+        "inflation",
+        "core_inflation",
+        "fx_change",
+        "brent_change",
+        "fx_pressure_lag1"
+      ],
+      "bic": 9.157076128371285,
+      "training_start": "2012-02",
+      "training_n": 176
+    }
+  },
+  "selection": "validation targets through 2024-08; audit origins from 2024-08; intervening rows embargoed; validation MAE then RMSE on common eligible origins, never audit",
+  "information": "current revised workbook vintage; prefix fitting; auxiliary pressure delayed one month; historical release days unknown",
+  "interpretation": "Statistical satellite, not an interest-rate-policy counterfactual. QPM SA quarterly-average inflation is a different observable.",
+  "model_failure_count": 0,
+  "policy_dataset_used": true
+}

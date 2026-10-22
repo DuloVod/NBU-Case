@@ -1,0 +1,10 @@
+variant,demand_conditional_sd,risk_premium_conditional_sd,estimation_window,cost_persistence,meaning
+selected,2.2410444553208717,3.338649614532734,2015Q1–2019Q4,0.5,"stress sizes, not event probabilities or causal historical identifications"
+corrected_template,2.2410444553208717,3.338649614532734,2015Q1–2019Q4,0.5,"stress sizes, not event probabilities or causal historical identifications"
+no_gap_judgment,2.2410444553208717,3.338649614532734,2015Q1–2019Q4,0.5,"stress sizes, not event probabilities or causal historical identifications"
+strong_gap_judgment,2.2410444553208717,3.338649614532734,2015Q1–2019Q4,0.5,"stress sizes, not event probabilities or causal historical identifications"
+war_potential_std_0,2.2410444553208717,3.338649614532734,2015Q1–2019Q4,0.5,"stress sizes, not event probabilities or causal historical identifications"
+war_potential_std_30,2.2410444553208717,3.338649614532734,2015Q1–2019Q4,0.5,"stress sizes, not event probabilities or causal historical identifications"
+beta_0.5,2.2102739779308065,3.591227593293306,2015Q1–2019Q4,0.5,"stress sizes, not event probabilities or causal historical identifications"
+beta_0.9,1.6615607129383803,5.529945213488248,2015Q1–2019Q4,0.5,"stress sizes, not event probabilities or causal historical identifications"
+potential_growth_4,2.2296485931311887,3.331429113707828,2015Q1–2019Q4,0.5,"stress sizes, not event probabilities or causal historical identifications"

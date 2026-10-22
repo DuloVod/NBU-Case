@@ -1,0 +1,10 @@
+{
+  "file": "fx-year-2026.json",
+  "url": "https://bank.gov.ua/ua/tables/currency-interventions?startDate=01.01.2026&endDate=01.10.2026",
+  "status": 200,
+  "bytes": 8288,
+  "sha256": "832c10b33b2a424c4196c17e09b2b6613e020f461122cf91f139411ef2622927",
+  "last_modified": null,
+  "retrieved_at": "2026-10-22",
+  "rows": 10
+}

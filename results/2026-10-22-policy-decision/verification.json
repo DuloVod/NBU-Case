@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "as_of": "2026-10-22",
+  "input_hashes": 121,
+  "output_hashes": 54,
+  "dataset_values": 8506,
+  "calibration_predictions": 1512,
+  "cpi_historical_forecasts": 870,
+  "policy_comparisons": 191646,
+  "conditional_winners": 1134,
+  "max_numerical_residual": 5.4569682106375694e-12,
+  "scope": "source integrity, chronological split rules, selection, units/arithmetic, structural equations; not empirical proof of causality"
+}

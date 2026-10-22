@@ -1,0 +1,10 @@
+{
+  "file": "fx-year-2014.json",
+  "url": "https://bank.gov.ua/ua/tables/currency-interventions?startDate=01.01.2014&endDate=31.12.2014",
+  "status": 200,
+  "bytes": 8599,
+  "sha256": "fefeb08c0c9e94e9cf37510364464e4a9a5a9583b34827eab172400e9f53d8a8",
+  "last_modified": null,
+  "retrieved_at": "2026-10-22",
+  "rows": 12
+}

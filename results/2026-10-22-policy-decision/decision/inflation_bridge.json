@@ -1,0 +1,37 @@
+{
+  "months": [
+    {
+      "period": "2026-10",
+      "model": "VAR",
+      "headline_mom_pct": 2.1530373224461825,
+      "headline_yoy_pct": 11.372989617620975,
+      "frozen_seasonal_log": -0.006203566393231242,
+      "sa_index": 1556.374029467067
+    },
+    {
+      "period": "2026-11",
+      "model": "VAR",
+      "headline_mom_pct": 1.3290865715319398,
+      "headline_yoy_pct": 12.403618592572132,
+      "frozen_seasonal_log": -0.0021695261852307138,
+      "sa_index": 1570.7104807947785
+    },
+    {
+      "period": "2026-12",
+      "model": "VAR",
+      "headline_mom_pct": 0.8696049940598101,
+      "headline_yoy_pct": 13.154776520316444,
+      "frozen_seasonal_log": -0.0021311983112178375,
+      "sa_index": 1584.308733228756
+    }
+  ],
+  "q4_l_cpi_target": 735.9126660012575,
+  "historical_q3_l_cpi": 731.1195962607385,
+  "seasonal_assumption": "last-year monthly STL seasonal factors; historical prefix ends 2026-09",
+  "interpretation": "conditional price-level bridge; inferred cost shock is not causally identified",
+  "uncertainty_targets": {
+    "low": 734.9139694829254,
+    "high": 736.9014871162731
+  },
+  "uncertainty_meaning": "exploratory +/- one audit RMSE of annual inflation per month, same-sign errors; not a confidence interval or event probability"
+}

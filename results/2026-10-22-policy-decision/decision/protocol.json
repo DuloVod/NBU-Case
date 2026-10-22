@@ -1,0 +1,61 @@
+{
+  "as_of": "2026-10-22",
+  "model_origin": "2026Q3",
+  "gdp_available_through": "2026Q2",
+  "decision_window": [
+    "2026-10-29",
+    "2026-12-17"
+  ],
+  "effective_dates_assumption": [
+    "2026-10-30",
+    "2026-12-18"
+  ],
+  "calendar_formula": "(29*16 + 49*october_rate + 14*december_rate)/92",
+  "calendar_source": "https://bank.gov.ua/ua/monetary/schedule",
+  "calendar_verification": "schedule dates from saved project context; official live page returned HTTP403 on 2026-10-22; effective-next-day is a scenario convention",
+  "controlled_period": "Q4 2026 only; no commitment over Q1 2027 or an exact January spot rate",
+  "timing_limitation": "Quarterly transmission sees only day-weighted Q4 average. Different within-quarter paths with the same average have the same macro outcome in this approximation.",
+  "solve_horizon_quarters": 16,
+  "loss_horizons_quarters": [
+    8,
+    12
+  ],
+  "candidate_count": 169,
+  "candidate_rates_pct": [
+    14.0,
+    14.5,
+    15.0,
+    15.5,
+    16.0,
+    16.5,
+    17.0,
+    17.5,
+    18.0,
+    18.5,
+    19.0,
+    19.5,
+    20.0
+  ],
+  "future_nonpolicy_shocks": "identical across rate candidates within each variant/scenario; bridge shock inferred once under endogenous rule, then frozen",
+  "bridge_model": "validation-selected headline CPI satellite; repeat last-year seasonal factor to bridge NSA monthly to SA quarterly mean",
+  "foreign_path": "same endogenous teaching-template foreign AR block for all candidate policies",
+  "scenarios": {
+    "inherited_only": "filtered inherited state, zero additional future innovations",
+    "satellite_bridge": "Q4 cost innovation inferred to match statistical CPI bridge under endogenous policy rule; frozen across controls",
+    "persistent_cost": "bridge cost innovation repeated with assumed .5 decay in next three quarters",
+    "negative_demand": "bridge plus negative one prewar SD of filtered demand-innovation means in Q4",
+    "risk_premium_stress": "bridge plus positive one prewar SD of filtered premium-innovation means in Q4; no estimated flow-to-premium mapping",
+    "bridge_low": "satellite annual CPI lowered by one audit RMSE per month, coherent same-sign bridge; exploratory, not a probability interval",
+    "bridge_high": "satellite annual CPI raised by one audit RMSE per month, coherent same-sign bridge; exploratory, not a probability interval"
+  },
+  "inflation_measure": "exact yoy percent change of seasonally adjusted quarterly-average price level; not monthly NSA CPI or Dec/Dec",
+  "output_gap_measure": "log percentage-point gap, latent and sensitive to potential/judgments, not an observable",
+  "criterion": "sum .99^t [(inflation_pct-5)^2 + output_weight*gap_log_pp^2] + smoothing_weight*announcement/rule changes squared",
+  "weights": "inflation=1; output=.25,1,2; smoothing=0,.1,1; normative assumptions, never estimated from actual rates",
+  "rankings": "conditional grid comparisons; a boundary winner is not an established optimum; variant/scenario counts are not probabilities",
+  "causal_status": "teaching-model counterfactuals, not empirically identified policy effects or proof that a historical decision caused success",
+  "numerical_max_residual": 5.4569682106375694e-12,
+  "path_rows": 8064,
+  "loss_rows": 191646,
+  "conditional_winners": 1134
+}

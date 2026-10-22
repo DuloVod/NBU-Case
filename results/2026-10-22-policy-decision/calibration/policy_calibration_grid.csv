@@ -1,0 +1,10 @@
+candidate,beta,inflation_memory,validation_score,settings,improvement_fraction_vs_corrected_template,selected,best_validation
+5,0.7,0.6,2.086568899880322,"{""beta"": 0.7, ""inflation_memory"": 0.6}",0.012630993299384774,False,True
+7,0.9,0.4,2.0885696954365414,"{""beta"": 0.9, ""inflation_memory"": 0.4}",0.011684212428133112,False,False
+8,0.9,0.6,2.093769354332052,"{""beta"": 0.9, ""inflation_memory"": 0.6}",0.009223722367566634,False,False
+6,0.9,0.3,2.110641079918899,"{""beta"": 0.9, ""inflation_memory"": 0.3}",0.001239984598367827,False,False
+0,0.7,0.4,2.1132614916208325,{},0.0,True,False
+4,0.7,0.3,2.1491169160584698,"{""beta"": 0.7, ""inflation_memory"": 0.3}",-0.01696686594621899,False,False
+3,0.5,0.6,2.1977439090395916,"{""beta"": 0.5, ""inflation_memory"": 0.6}",-0.039977266303169445,False,False
+2,0.5,0.4,2.2854356465669285,"{""beta"": 0.5, ""inflation_memory"": 0.4}",-0.08147318996194919,False,False
+1,0.5,0.3,2.354939306286954,"{""beta"": 0.5, ""inflation_memory"": 0.3}",-0.1143624750767398,False,False

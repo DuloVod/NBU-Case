@@ -1,0 +1,165 @@
+{
+  "cutoff": "2026-10-22",
+  "raw_existing": [
+    {
+      "file": "data/raw/BOP_m.xlsx",
+      "bytes": 1546903,
+      "sha256": "e790eb1a3877ccd582cd14e9cc267527518bc341cd35a35e72d1747c7601c7b3"
+    },
+    {
+      "file": "data/raw/BOS_2026-Q3.pdf",
+      "bytes": 2048443,
+      "sha256": "b3f95c546e8eefa44bd14c8638d6b6a8d7e1d2ded6f6297eb98eb00754b66615"
+    },
+    {
+      "file": "data/raw/CCPI_m.xlsx",
+      "bytes": 36695,
+      "sha256": "a33171a8389fe9ee8fd295e0b4cb440404d0e5baf3d8907448a581663cb2021a"
+    },
+    {
+      "file": "data/raw/CPI_m.xlsx",
+      "bytes": 554806,
+      "sha256": "26d02172e1c17045aeb2d2f24cf455923d0b10b7a1af992a8d2a02b0407ffbe6"
+    },
+    {
+      "file": "data/raw/Exchange_r.xls",
+      "bytes": 350208,
+      "sha256": "084d903e04f6702b79baabf739fdcb3141d0d5de7008055208dc15e37cb2b0f0"
+    },
+    {
+      "file": "data/raw/FAO_food.csv",
+      "bytes": 48110,
+      "sha256": "1e7b4cab727d65ad85ac056a1f4ec21285c3294aebdacb08f01e10be490a4098"
+    },
+    {
+      "file": "data/raw/Financial_markets.xlsx",
+      "bytes": 1478970,
+      "sha256": "42355ab343b34b37606099d77938b11ff9e395cee3d689e5ad3e6ccfa3a04445"
+    },
+    {
+      "file": "data/raw/IR_2026-Q3.pdf",
+      "bytes": 1327230,
+      "sha256": "8f31d75b96fa4384fc2f39612ec10db1781f98d0d1ea6b5526976c59bfae3d77"
+    },
+    {
+      "file": "data/raw/Macroeconomic_Forecast_table_2026_07.xlsx",
+      "bytes": 410138,
+      "sha256": "8e9e2961e33fb643b3765e952ff689b5e59c01640a38035e49795bc68482f0c4"
+    },
+    {
+      "file": "data/raw/PInterestRates.xls",
+      "bytes": 1757184,
+      "sha256": "71e7bea0bf01efabc6e971ec0f5b45628f5452102f56e74b480aea5babbdd214"
+    },
+    {
+      "file": "data/raw/Surveys_price.xlsx",
+      "bytes": 56875,
+      "sha256": "ba0377abda9250374d9d9ef1454c2297c5baf4357c50a1d4c4b8c969c03bdce2"
+    },
+    {
+      "file": "data/raw/Surveys_rate.xlsx",
+      "bytes": 57581,
+      "sha256": "caeaa4534ca68c0ea922b7716e4e60640c52e7dd24e28fec5e73c19cdc3df099"
+    },
+    {
+      "file": "data/raw/Tables_Charts_2026-Q3.xlsx",
+      "bytes": 2346747,
+      "sha256": "e4562291486f9a1da2bd486ed83bda248ce23e8d1732724fae87518d9789aa60"
+    },
+    {
+      "file": "data/raw/UONIA.xls",
+      "bytes": 209920,
+      "sha256": "a557f3d8312ed0bfcb77c5cebef74d22dbb20222d354bd8f9173494c4d5465a0"
+    },
+    {
+      "file": "data/raw/Unemp_q.xlsx",
+      "bytes": 138794,
+      "sha256": "74c02305b4e7b7d3ec9cc61d6fe625fb1fa416f7350b8d640923ca4cb1bc2353"
+    },
+    {
+      "file": "data/raw/Wages_m.xlsx",
+      "bytes": 407892,
+      "sha256": "e5bcfa309b743b4f5f77513ac3e665a30d269f2e5dc1db8dd81a00ef6436e23a"
+    },
+    {
+      "file": "data/raw/WorldBank_commodities.xlsx",
+      "bytes": 586099,
+      "sha256": "ea1c350827878ea3bbe30e3cda16a13fd3bd5b409b8458940dc94a36b5a33154"
+    },
+    {
+      "file": "data/raw/_dodatok_sezonka_vvp_2010-2026.xlsx",
+      "bytes": 55594,
+      "sha256": "0779c2fa7951d1db228d89d50cdaee8b5ac8feabaacec1b4259168f8fbc1c6de"
+    },
+    {
+      "file": "data/raw/data.csv",
+      "bytes": 3010127,
+      "sha256": "7b3d0710bb0f9ed3fb830209627b97bdc7764877b461f8e12755b76b6fa782d1"
+    },
+    {
+      "file": "data/raw/monthly_long_nf_publ.xlsx",
+      "bytes": 377992,
+      "sha256": "8228e84fa05bc109100b20e9dadd1a0cd108a5c5956d4dd8c510f3e431aaa6f8"
+    },
+    {
+      "file": "data/raw/namq_10_gdp__custom_23412352_spreadsheet.xlsx",
+      "bytes": 90186,
+      "sha256": "c60ecdb74b7dd2a9dc5229739f0bf8a7d25b14818637554f51fb05511bd1d5ca"
+    },
+    {
+      "file": "data/raw/nbu_policy_archive_rows.json",
+      "bytes": 10093,
+      "sha256": "b9d3b538cf458dda5cac34a28b1a75010580b53fb1a08f5cc1ddf8d047775398"
+    },
+    {
+      "file": "data/raw/prc_hicp_minr__custom_23410998_spreadsheet.xlsx",
+      "bytes": 147411,
+      "sha256": "d2ff33a796855935d437cd9433b6be8f167a7d1079d19d887431bfa7dbbda0b5"
+    }
+  ],
+  "existing_input_rows": 3451,
+  "existing_input_series": [
+    "CORE_CPI_UA_MOM",
+    "CORE_CPI_UA_YOY_PUBLISHED",
+    "CPI_UA_MOM",
+    "CPI_UA_YOY_PUBLISHED",
+    "ER_UAH_EUR_AVG",
+    "ER_UAH_USD_AVG",
+    "GDP_EA_SCA",
+    "GDP_UA_SA",
+    "HICP_EA_NSA",
+    "IR_ECB_DFR_CALENDAR_AVG",
+    "IR_ECB_DFR_EOM",
+    "IR_POLICY_CALENDAR_AVG",
+    "IR_POLICY_EOM"
+  ],
+  "existing_auxiliary_monthly_columns": [
+    "period",
+    "brent",
+    "current_account",
+    "exports_goods",
+    "exports_services",
+    "fao_cereals",
+    "fao_dairy",
+    "fao_food",
+    "fao_meat",
+    "fao_oils",
+    "fao_sugar",
+    "gas_europe",
+    "imports_goods",
+    "imports_services",
+    "loan_nfc_uah",
+    "loan_nfc_uah_ex_overdraft",
+    "trade_balance_goods",
+    "trade_balance_gs",
+    "trade_balance_services",
+    "uonia",
+    "wage_nominal",
+    "wheat_us_hrw",
+    "wheat_us_srw",
+    "exports_gs",
+    "imports_gs"
+  ],
+  "existing_evidence_note": "Previous policy evidence already includes one September preliminary reserves snapshot; extension claims a new historical series, not discovery of that snapshot.",
+  "unchanged_source_policy": "All prior raw/inputs/model and sources are read-only."
+}

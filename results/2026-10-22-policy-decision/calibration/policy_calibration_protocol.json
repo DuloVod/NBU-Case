@@ -1,0 +1,125 @@
+{
+  "as_of": "2026-10-22",
+  "splits": {
+    "development": {
+      "first_origin": "2015Q4",
+      "last_origin": "2019Q4",
+      "n_origins": 17,
+      "first_target": "2016Q1",
+      "last_target": "2020Q1"
+    },
+    "validation": {
+      "first_origin": "2020Q1",
+      "last_origin": "2022Q4",
+      "n_origins": 12,
+      "first_target": "2020Q2",
+      "last_target": "2023Q1"
+    },
+    "audit": {
+      "first_origin": "2023Q1",
+      "last_origin": "2026Q1",
+      "n_origins": 13,
+      "first_target": "2023Q2",
+      "last_target": "2026Q2"
+    }
+  },
+  "candidate_count": 9,
+  "candidates": [
+    {},
+    {
+      "beta": 0.5,
+      "inflation_memory": 0.3
+    },
+    {
+      "beta": 0.5,
+      "inflation_memory": 0.4
+    },
+    {
+      "beta": 0.5,
+      "inflation_memory": 0.6
+    },
+    {
+      "beta": 0.7,
+      "inflation_memory": 0.3
+    },
+    {
+      "beta": 0.7,
+      "inflation_memory": 0.6
+    },
+    {
+      "beta": 0.9,
+      "inflation_memory": 0.3
+    },
+    {
+      "beta": 0.9,
+      "inflation_memory": 0.4
+    },
+    {
+      "beta": 0.9,
+      "inflation_memory": 0.6
+    }
+  ],
+  "objective": "equal-weight standardized Huber loss of exact quarterly-average CPI yoy percent, GDP log level, FX log level",
+  "selection_metrics": [
+    "inflation_yoy_pct",
+    "gdp_log_percent",
+    "fx_log_percent"
+  ],
+  "rate_used_in_selection": false,
+  "diagnostic_metrics": [
+    "inflation_yoy_pct",
+    "gdp_log_percent",
+    "fx_log_percent",
+    "rate_pp"
+  ],
+  "huber_cutoff": 2.0,
+  "scale_floor": 1.0,
+  "scales_from_corrected_template_development_rmse": {
+    "inflation_yoy_pct": 1.98296521391711,
+    "gdp_log_percent": 3.8746852606986293,
+    "fx_log_percent": 4.387867432372065
+  },
+  "default_validation_score": 2.1132614916208325,
+  "best_validation_score": 2.086568899880322,
+  "best_validation_candidate": 5,
+  "best_validation_settings": {
+    "beta": 0.7,
+    "inflation_memory": 0.6
+  },
+  "validation_improvement_fraction": 0.012630993299384774,
+  "required_validation_gain": 0.05,
+  "threshold_roundoff_tolerance": 1e-12,
+  "selection": "retain corrected template unless validation score improves at least 5%; never select on audit",
+  "selected_candidate": 0,
+  "selected_settings": {},
+  "gap_judgments": "disabled for all historical predictive origins; 2026 teaching judgment unavailable in 2022",
+  "exact_targets": true,
+  "inflation_target_pct": 5.0,
+  "foreign_inflation_target_pct": 2.0,
+  "train_information": "DataStore.frame(origin,gdp_lag=1), current revised vintage truncated before preprocessing",
+  "labels": "DataStore.frame(target,gdp_lag=0), labels attached only after split predictions exist",
+  "data_availability": "audit last target 2026Q2, within available actual GDP",
+  "inflation_definition": "exact yoy percent of seasonally adjusted quarterly-average CPI, not December/December or monthly CPI",
+  "gdp_definition": "100 log real GDP level; squared forecast errors in log points",
+  "fx_definition": "100 log quarterly-average UAH per EUR",
+  "calibration_status": "bounded predictive calibration of two coefficients; not causal structural identification or policy loss-weight estimation",
+  "caveats": [
+    "historical outcomes already inspected; audit not pristine unseen holdout",
+    "revised current-vintage data; actual historical release vintages not reconstructed",
+    "one-quarter GDP availability lag is a proxy, not a verified release calendar",
+    "historical regimes differ; fixed teaching calibration is retrospective",
+    "predictive gain does not establish policy welfare dominance"
+  ],
+  "elapsed_seconds": 4.9728487499996845,
+  "sha256": {
+    "models/policy_calibration.py": "1ce689a2b40b6f728ed05a3ba4ee0bdafc1fdaac6ca2629e68fc98dcb6720301",
+    "models/policy_qpm.py": "074b11fdcf5c1e62c12cf105a66d6e4eb5ef3099207cacaae9c2d0ecbbc4dbde",
+    "models/research_qpm.py": "04980d6bf9e238b70c77ba8e4e175444aded5ec22383697c746fb1ba2eb42b81",
+    "models/qpm.py": "b10b33ed4a114779c9ce05f0e471bc8807fa8c49b93862ff3ee9f900a5cdddb1",
+    "models/common.py": "ec08ab5a81fba33ffdfc843f5064fa1d2152510abce4ded4b0418b9b9abc9600",
+    "data/inputs/core_monthly.csv": "30ecda574a8f06bb6b100814e3f1bb9fca771e53499b6343c8e681cd413cac28",
+    "data/model/quarterly_levels.csv": "ee6245257bda0784bcbe195c632b5bbde0d6a4d4a6644e5e29da5b2fe42496bf",
+    "nbu_challenge_model_2026/model/param.m": "ef43ad6737def53c9d6b126c6ad03161764aac5b9555cc34a9a2fee87ffd3b19",
+    "nbu_challenge_model_2026/model/model.model": "b764d8306be7a2e44f1cc745c1a4603f3a74455a7e3ac84a66c0ffc4744e72d5"
+  }
+}
