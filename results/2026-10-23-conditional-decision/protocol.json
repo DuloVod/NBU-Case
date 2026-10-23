@@ -1,0 +1,46 @@
+{
+  "research_date": "2026-10-23",
+  "information_cutoff": "2026-10-22 end of day; recommendation drafted 2026-10-23",
+  "decision_window": "Oct29/Dec17 2026; next-day effectiveness is an assumption",
+  "candidates": "same announced rate at both Q4 meetings, 14..20 by .5; common endogenous rule afterwards",
+  "calendar_formula": "(29*16 + 63*rate)/92",
+  "solve_horizon": 16,
+  "loss_horizons": [
+    8,
+    12
+  ],
+  "initial_states": {
+    "low_gap": "prior beta_0.9 filtered vector; gap -0.610, not a confidence bound",
+    "central": "prior selected filtered vector; gap +0.462",
+    "high_gap": "prior war_potential_std_0 vector; gap +1.711"
+  },
+  "beta": [
+    0.5,
+    0.7,
+    0.9
+  ],
+  "beta_meaning": "weight on managed exchange-rate target vs UIP, not intervention volume",
+  "crossing": "same full initial vector across beta cases; initial-state cases vary other latent states too, not an isolated gap intervention",
+  "shocks_fixed": "same innovations across rate candidates AND beta/state stresses; central bridge matched only original selected endogenous rule",
+  "primary_criterion": "minimize maximum regret / max(hold16 loss in same context,1); no probabilities or averaging scenario winners",
+  "secondary_criterion": "normalize regret by within-context candidate loss range; explicitly report any change in choice",
+  "normative_weights": {
+    "inflation": 1,
+    "output": [
+      0.25,
+      1,
+      2
+    ],
+    "smoothing": [
+      0.1,
+      1
+    ],
+    "discount": 0.99
+  },
+  "scenario_meaning": "stress assumptions, not measured structural energy/fuel shocks or event probabilities",
+  "bridge_limits": "low/high use previously inspected audit RMSE; exploratory stress, not independent confidence bounds",
+  "physical_mapping": "No elasticity from fuel prices, power deficit or survey expectations to structural shocks is estimated",
+  "expectation_proxy": "persistent_price_risk is residual price pressure, NOT an endogenous credibility or estimated expectation block",
+  "diagnostic_exclusion": "pure shocks used to explain mechanisms only; excluded from the decision minimax",
+  "status": "conditional research recommendation; no global optimum or causal identification"
+}

@@ -1,0 +1,30 @@
+{
+  "inputs": {
+    "models/conditional_policy.py": "cf95fabe55e02dcd0d327db33064b0900eb395810a73da1ebe7da65d247fe9cc",
+    "models/policy_qpm.py": "074b11fdcf5c1e62c12cf105a66d6e4eb5ef3099207cacaae9c2d0ecbbc4dbde",
+    "models/policy_decision.py": "41bcb21688125564b0c7ba84ba9ad2d905e8464f1009e38fc7449bcccd7adcd5",
+    "models/research_qpm.py": "04980d6bf9e238b70c77ba8e4e175444aded5ec22383697c746fb1ba2eb42b81",
+    "models/qpm.py": "b10b33ed4a114779c9ce05f0e471bc8807fa8c49b93862ff3ee9f900a5cdddb1",
+    "models/common.py": "ec08ab5a81fba33ffdfc843f5064fa1d2152510abce4ded4b0418b9b9abc9600",
+    "data/model/quarterly_levels.csv": "ee6245257bda0784bcbe195c632b5bbde0d6a4d4a6644e5e29da5b2fe42496bf",
+    "data/inputs/core_monthly.csv": "30ecda574a8f06bb6b100814e3f1bb9fca771e53499b6343c8e681cd413cac28",
+    "data/model/auxiliary_monthly.csv": "2ea212e9bc61b2ad36086995bef40e6ed92b1608124a59c76992fe11ccbae53b",
+    "data/model/auxiliary_quarterly.csv": "1f8562072963126f4fd50f130aeac12c0219324fa0ea419a9186bf465d98eee0",
+    "results/2026-10-22-policy-decision/decision/scenario_innovations.csv": "be0aaefa757920002f555f0dd02440bb864622753cee687145bd753e25d8e30a",
+    "results/2026-10-22-policy-decision/decision/filtered_beta_0.9.csv": "74323b723381173f4be2da76f61af398e8e0bed8257f6f96513b17b983e0d4f9",
+    "results/2026-10-22-policy-decision/decision/filtered_selected.csv": "296a4f7baacfd64d5b7ef34cf2ed96eb0e5f4bfda046c0ebf2ecc84d03acc61d",
+    "results/2026-10-22-policy-decision/decision/filtered_war_potential_std_0.csv": "78ded56ede0c06ddffde317a701f6b8565fcbbffc0aaef5b7701968d05ee546e",
+    "nbu_challenge_model_2026/model/param.m": "ef43ad6737def53c9d6b126c6ad03161764aac5b9555cc34a9a2fee87ffd3b19",
+    "nbu_challenge_model_2026/model/model.model": "b764d8306be7a2e44f1cc745c1a4603f3a74455a7e3ac84a66c0ffc4744e72d5"
+  },
+  "outputs": {
+    "protocol.json": "a8ef8336a1cce6257236993d33e9a0c0dbb1ab3a300f857de5cfa3dfa8527e92",
+    "scenario_assumptions.csv": "6cb550b491fa7d955c25c10895101d95d88dde74c408dc03c10dbfc06605b99e",
+    "paths.csv": "fb0ede73efc5398f0efabfa465a41e8de40080f9aed2588ba05c82bc0fea6a39",
+    "initial_states.csv": "79afb1106b32a50162a1dd45ca76973f7a7f50812a805a73684c88ee2dd8a773",
+    "numerical_checks.csv": "930612e0ada8435ca5d26370672e6eef53ac2cbc365f240d0f515001298e02a7",
+    "losses.csv": "a322195bea2f86d783de39846707256b2c171c94c2c297c72e1f87c6426acb89",
+    "robustness.csv": "db22dff68767b5f2b16b8a5893b2feb8040a05133c4cdf157a5741ae9c6c4842",
+    "summary.json": "460d6a13ad4e6fe7b6814fcae8a5f1b72b1f9203e7995148294dfc65cac6f5a6"
+  }
+}

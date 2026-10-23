@@ -25,3 +25,8 @@ jobs:
         run: |
           python tools/run_research.py
           python tools/verify_short_term.py
+      - name: Reproduce conditional shock decisions and verify sources offline
+        run: |
+          python models/conditional_policy.py
+          python models/make_conditional_report.py
+          python tools/verify_conditional_policy.py

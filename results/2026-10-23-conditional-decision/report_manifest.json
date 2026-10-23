@@ -1,0 +1,11 @@
+{
+  "inputs": {
+    "paths.csv": "fb0ede73efc5398f0efabfa465a41e8de40080f9aed2588ba05c82bc0fea6a39",
+    "robustness.csv": "db22dff68767b5f2b16b8a5893b2feb8040a05133c4cdf157a5741ae9c6c4842"
+  },
+  "output_images": {
+    "decision_robustness.png": "f63ee6aedfea3a5bed53e8d2b9a715196e9e2c3ed5af971aa9abef38eb918404",
+    "shock_mechanisms.png": "9c48de58abd6404eca60dc220efe9ee6af33bd0d35b3fdac3536e84189868b5b",
+    "policy_tradeoff.png": "63105b61250239406a60e0fd9102ffcdc5205b21d196772580e1e0f91571241b"
+  }
+}

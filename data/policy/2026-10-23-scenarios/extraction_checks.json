@@ -1,0 +1,26 @@
+{
+  "rows": 31,
+  "source_ids": [
+    "BOS_Q3",
+    "EXPECT_INFL",
+    "FUEL_LAW",
+    "NBU_CPI"
+  ],
+  "source_publication_unknown": "EXCISE and legacy survey workbook dates not invented",
+  "derived_review_assets": [
+    {
+      "file": "raw/bos-table4-review.png",
+      "sha256": "db7f86abafb343512659889870bcd7e762cbd38ea4291b0316e68fbf7203af83",
+      "source": "data/raw/BOS_2026-Q3.pdf",
+      "role": "rendered_review_not_new_source"
+    },
+    {
+      "file": "raw/bos-table6-review.png",
+      "sha256": "31ad74a7670ab6e6f0681fb516abf54f86d6ac8c9cdf0e7f7c0c0f10bdfe2c56",
+      "source": "data/raw/BOS_2026-Q3.pdf",
+      "role": "rendered_review_not_new_source"
+    }
+  ],
+  "fuel_sign": "Positive46.2 reflects text describing price growth; dash in source is not parsed as a minus sign",
+  "note": "No future winter energy deficit, causal elasticity, or scenario probability is inferred"
+}

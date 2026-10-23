@@ -1,0 +1,10 @@
+beta,initial_state,gap,source
+0.5,low_gap,-0.6100563111237345,filtered_beta_0.9.csv
+0.5,central,0.4616773640245569,filtered_selected.csv
+0.5,high_gap,1.7113378612401136,filtered_war_potential_std_0.csv
+0.7,low_gap,-0.6100563111237345,filtered_beta_0.9.csv
+0.7,central,0.4616773640245569,filtered_selected.csv
+0.7,high_gap,1.7113378612401136,filtered_war_potential_std_0.csv
+0.9,low_gap,-0.6100563111237345,filtered_beta_0.9.csv
+0.9,central,0.4616773640245569,filtered_selected.csv
+0.9,high_gap,1.7113378612401136,filtered_war_potential_std_0.csv

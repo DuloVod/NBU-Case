@@ -1,5 +1,6 @@
 # Звіти
 
-Єдиний поточний комплект — [final/RESEARCH_UA.md](final/RESEARCH_UA.md): середня ставка за листопад 2026, грудень 2026 і січень 2027.
+- **[policy-decision/RECOMMENDATION_UA.md](policy-decision/RECOMMENDATION_UA.md)** — активна умовна рекомендація, шоки, нові сценарії, три докази, контраргумент і перегляд рішення; 23.10.2026.
+- [final/RESEARCH_UA.md](final/RESEARCH_UA.md) — попередній прогноз поведінки ставки на три місяці. Не є доказом оптимальної політики.
 
-У `final/` є текстовий звіт, HTML і чотири графіки. Це поточна робоча версія, а не затверджене подання. [План презентації](../presentation/README.md), [попередні етапи в Git](../docs/project/HISTORY_UA.md).
+Нове подання на конкурс потребує погодження командою. [План презентації](../presentation/README.md), [історія](../docs/project/HISTORY_UA.md).

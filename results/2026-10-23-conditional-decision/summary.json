@@ -1,0 +1,10 @@
+{
+  "primary_rate": 15.5,
+  "primary_worst_regret": 0.09903853290831383,
+  "alternative_normalization_rate": 17.0,
+  "decision_contexts": 864,
+  "loss_rows": 11232,
+  "path_rows": 6160,
+  "primary_criterion": "minimize maximum regret / max(hold16 loss in same context,1); no probabilities or averaging scenario winners",
+  "status": "scenario-dependent diagnostic, not estimated optimal rate"
+}
